@@ -2,7 +2,7 @@
 # CSC-114-InfoBot — Session 0 Testing Log
 
 **Platform:** claude.ai Projects
-**Date tested:** [date]
+**Date tested:** 5/27/2026
 
 | Test # | Input | Expected | Actual | Pass / Fail | Notes |
 |---|---|---|---|---|---|
