@@ -76,6 +76,8 @@ This question refers to an in-class exercise using Google's Teachable Machine (t
 **A:**  
 The core workflow is: **receive IPYNB → run and understand it → add your own code → save to GitHub → reload when needed.**
 
+I need to learn IPYNB and github intergration.  I asked Claude to create this md file and help me understand the workflow.
+
 Here are the specific skills and steps to develop:
 
 ---
