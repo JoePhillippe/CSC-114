@@ -1,0 +1,17 @@
+# API key — never commit
+.env
+
+# Templates contain answer keys — keep local only
+templates/
+
+# Student data — never commit
+*.csv
+roster.csv
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# VS Code settings
+.vscode/
