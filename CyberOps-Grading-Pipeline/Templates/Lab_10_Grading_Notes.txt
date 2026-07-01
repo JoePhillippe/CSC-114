@@ -1,0 +1,430 @@
+19 questions and/or screenshots @ 5pts each
+(pic required means that the screenshot does not count for individual credit, but without the screenshot, the answers provided will not receive credit)
+
+Part 1 Step lh screenshot - 5pts
+Part 1 Step 1m screenshot - 5pts
+Part 1 Step 1m 5 questions - 5pts each (25pts)
+Part 1 Step 1s screenshot - 5pts
+Part 2e screenshot - 5pts
+Part 2f question - 5pts (correct pic required)
+Extra Credit Screenshot - 15pts
+Part 3 Step 2g 2 questions - 5pts each (correct pic required)(10 pts)
+Part 3 Step 3c screenshot - 5pts
+Part 3 Step 3f question - 5pts
+Part 3 Step 3g question - 5pts (correct pic required)
+Part 3 Step 3h 2 questions - 5pts each (correct pic required) (10 pts)
+Part 3 Step 4a screenshot - 5pts
+Part 3 Step 4b screenshot - 5pts
+
+
+
+Your screenshot format does not follow the directions in the beginning of labs 2 and 3 documents.  You have to take your browser out of fullscreen so that it lines up with the NDG's Client desktop width
+-11
+
+Your screenshots format does not follow the directions in the beginning of labs 2 and 3 documents.  
+Also, Chromium must be fullscreen in the Security Onion client when running Kibana, Squil, and Wireshark must be fullscreen in the Security Onion client.
+-11  (2pt x 11 screenshots up to a max of 11)
+
+
+
+
+Part 1 Step 1e Screenshot
+- Incorrect screenshot format - missing NDG username in screenshot
+-5
+
+Part 1 Step 1h Screenshot 
+- your 3 nodes are not clearly visible in this screenshot or setup as directed in the sample screenshot on page 10 of this template.
+-2
+
+Part 1 Step 1h Screenshot
+- No snort alerts are visible in R1
+-2 (partial-credit)
+
+Part 1 Step 1h Screenshot
+- netstat command not showing in node H10
+-3 (partial-credit)
+
+Part 1 Step 1h Screenshot
+- netstat command not showing the required output because you did not 
+issue the script command prior to running the netstat command.
+-3 (partial-credit)
+
+Part 1 Step 1h Screenshot
+- When you got an error, you should not have continued with the lab.  You should have tried to figure out what you may have done wrong, which in this case it appears that you started it on the wrong Node and are now trying to run it again, on this one (since it shows it is in use), but it is still running on the other Node, possibly in the background.
+Regardless, if you have something not performing the way the lab states, you should reach out or start over.
+-5
+
+
+
+
+ 
+
+Part 1 Step 1m Screenshot
+- did not perform part 1 step 1j
+-2 (the last module is not sized correctly and placed in the bottom left)
+Part 1 Step 1m Screenshot - Node:H5 does not show a successful download of the required file.  If you do the commands correctly and it is still not working as required, per page 1, you are to move to another POD and restart the lab
+-5
+Part 1 Step 1m Screenshot 
+- Node:H5 does not show a successful download of the required file.  You had a typo. The command was:
+wget 209.165.202.033:6666/W32.Nimda.Amm.exe
+-5
+Part 1 Step 1m Screenshot 
+- Second Node:R1 does not show a snort alert.  You did not type the command correctly.
+-5
+Part 1 Step 1m Screenshot 
+- Second Node:R1 does not show a snort alert.  You did not enter the command.
+-5
+
+
+Part 1 Step 1m - all 5 Questions 
+- The instructions stated that "the answers to the questions below come from the snort alert log snippet shown below. Answer do not come from your lab"
+-25
+
+
+
+Part 1 Step 1m Question 1
+- A socket is a single entry that is made up of the IP address and the port number used for that connection.
+The source socket for the LAST snort alert in the example is:
+116.89.101.251:48658
+-5
+Part 1 Step 1m Question 1
+- A socket is made up of the IP address and the port number used for that connection.
+The source socket for the LAST snort alert is: 116.89.101.251:48658
+Missing IP address portion
+-3 (partial-credit)
+
+
+Part 1 Step 1m Question 2
+- The destination socket for the LAST snort alert is:
+201.65.113.12:8080
+-5
+Part 1 Step 1m Question 2
+- The destination socket for the LAST snort alert is: 201.65.113.12:8080
+Missing IP address portion
+-3 (partial-credit)
+
+
+Part 1 Step 1m Question 3
+- The date and time of the LAST snort alert is:
+3/17-22:04:30.286452
+-5
+Part 1 Step 1m Question 3 
+- missing the end of your time .286452
+-2 (partial-credit)
+Part 1 Step 1m Question 3 
+- date missing
+-2 (partial-credit)
+Part 1 Step 1m Question 3
+- date and time of the LAST snort alert is:
+3/17-22:04:30.286452
+- Did not use the same format (as the question stated to use) and was not out to the last digit of time
+-3 (partial-credit)
+Part 1 Step 1m Question 3 
+- missing date and the end of your time 
+Date was 3/17
+End of the time was .286452
+-4 (partial-credit)
+
+
+Part 1 Step 1m Question 4
+- The alert message of the LAST snort alert is:
+WEB-MISC ATTACK .htpasswd access
+-5
+Part 1 Step 1m Question 4 
+- WEB-MISC ATTACK .htpasswd access   You are missing .htpasswd access
+-2 (partial-credit)
+Part 1 Step 1m Question 4
+- You were only supposed to provide the answer based on the last snort alert
+The text below 4 states to use that information to "answer the following question" not the question above.
+-5
+
+
+Part 1 Step 1m Question 5 
+- In the example, two of the IDS alerts, 1 and 3 are for traffic going to the same Destination IP address and port 8080 (indicating this is http traffic going to a webserver)
+-5
+
+
+Part 1 Step 1s screenshot
+- Did not enter the fg command (Part 1 Step 1r) 
+-2 (partial-credit)
+Part 1 Step 1s screenshot
+- Did not enter the command ls -l correctly.  You did not put a space between s and -l
+-2 (partial-credit)
+Par1 Step s screenshot
+- the reason your ls -l output is not correct (does not look like the lab) is because you are not in the analyst folder, you moved yourself to the Desktop folder for some reason earlier in the lab.  
+-5
+Part 1 Step s screenshot
+- Node:R1 not running tail - f
+-1 (partial-credit)
+
+
+Part 2e screenshot
+- Did not enter the rule correctly.  You are blocking tcp traffic to the entire server instead of just port 6666.  While this accomplishes the goal of blocking traffic to port 6666, what if you were still needed to connect with other services on the server at other ports, while the admins were working on wiping the malware from the service that was running at port 6666.
+-3 (partial-credit)
+Part 2e screenshot
+- you did not complete Part 2c prior to completing Parts 2d and 2e.
+-1
+Part 2e screenshot
+- you should have removed the second entry under the FORWARD chain as noted on the last line of the page above the screenshot under Part 2e
+-1 (partial-credit)(only minus one because it is the identical rule and not two different rules listed)
+Part 2e screenshot
+- the command you needed to use to display iptables was 
+iptables -L -v   
+the -v is not capitalized
+-5
+Part 2e screenshot
+- You were not supposed to enter the command
+iptables -D FORWARD 1 
+unless you made a mistake in the previous step.  This command removes the rule you just added.
+-5
+
+
+
+Part 2f - 
+- No, it would not be successful if you entered the correct firewall entry in the beginning of part 2 and did not remove it by accident by running iptables -D FORWARD 1 when it was not necessary to do so.
+-5
+Part 2f - 
+- You would not be able to download the file, if you had not deleted your iptables entry that was going to block it.
+You entered the command iptables -D FORWARD 1 when you were not supposed to.  You only enter that command if you made a mistake and had more than one entry (rule) in iptables FORWARD
+-5
+Part 2f - 
+- No.  You would not be able to download the file, if you had attempted to download it via H5, not the router itself.
+-5
+Part 2f - 
+- You would not be able to download the file, if you had completed the previous command correctly
+-5
+Part 2f - 
+- No, it will not be successful, as shown in your screenshot. It shows connecting... but never connects and downloads the file.
+-5
+Part 2f - 
+- No, it will not be successful, if you would have follow the lab and attempted to download it via the Node H5 client that was blocked by the iptables entry.
+-5
+Part 2f - 
+- Missing answer to question, which was No it would not be successful if you entered the correct firewall entry in the beginning of part 2
+-5
+Part 2f - 
+- You would not be able to download the file, if you had not deleted your iptable entry that was going to block it.
+You entered the command iptables -D FORWARD 1 when you were not supposed to.  You only enter that command if you made a mistake and had more than one entry (rule) in iptables FORWARD
+The reason you did not download the file, without a entry in iptables was due to a mistake in your command.  You did not put a : between 133 and 6666 you put a .
+This is why it did not show "Connecting to 209.165.202.133:6666...." and instead showed a DNS error.
+-5
+
+
+
+Extra Credit - 
+Requirement was to clear the terminal and show all commands, to include the command used to remove the old rule. You were to only have one rule in iptables.  
+
+You would have first deleted the current FORWARD entry using:
+
+iptables -D FORWARD 1  
+
+(this would delete your listed FORWARD entry number 1)
+or you could remove all rules with
+
+iptables -F
+
+Next, you would have added a new FORWARD entry to silently block the entire infected server with the following command:
+
+iptables -I FORWARD -d 209.165.202.133 -j DROP
+
+or, if you had no rules in iptables, you could use
+
+iptables -A FORWARD -d 209.165.202.133 -j DROP
+
+This time you would have omitted the -p option so that the rule would block all protocols, not just the one you listed next to -p
+
+
+
+Extra Credit - 
+Requirement was to create a new FORWARD entry to silently block the entire infected server with the following command:
+
+iptables -I FORWARD -d 209.165.202.133 -j DROP
+
+or, if you had no rules in iptables, you could use
+
+iptables -A FORWARD -d 209.165.202.133 -j DROP
++10
+
+
+
+Extra Credit -
+INPUT and OUTPUT are rules just for traffic coming only to the firewall or originating in the firewall and leaving it, not for traffic traversing the firewall (from user A to user B etc.).
+
+
+Extra Credit - 
+Needed to remove the -p option so that it would not allow other protocols, such as UPD traffic, to reach to the harmful server.
+
+Was required to silently block the entire infected server with the following command:
+iptables -I FORWARD -d 209.165.202.133 -j DROP
+
+
+Extra Credit - 
+Requirement was that you could only have one rule in iptables.  
+
+Also, because only the second one is correct, the first one would allow UPD traffic from your network to get to the harmful server.
+
+Extra Credit - 
+Because you left the port set to tcp, it would allow UPD traffic from your network to get to the harmful server.
+The command would have looked like:
+
+iptables -I FORWARD -d 209.165.202.133 -j DROP
+
+
+
+Extra Credit
++15
+
+Extra Credit
++13 (failed to run the clear command)
+
+
+
+
+
+Part 3 Step 2c - entered the command incorrectly
+-5
+
+
+
+Part 3 Step 2g 1 - 
+Source IP Address with highest count
+10.0.90.175 with a count of 10
+Part 3 Step 2g Screenshot - You were supposed to get the answers from and provide the screenshot of the two fields labeled 
+Notices - Source IP Addresses    
+and   
+Notices - Destination IP Addresses
+They were about midway down the page
+Not the field labeled
+Zeek-Notices-Notice Types
+-10
+
+Part 3 Step 2g 1 - 
+Source IP Address with highest count
+10.0.90.175 with a count of 10
+-5
+
+Part 3 Step 2g 2 - 
+Destination IP Address with highest count
+185.136.168.160 with a count of 4
+-5
+
+Part 3 Step 2g Screenshot 
+- You were supposed to get the answers from and provide the screenshot of the two fields labeled 
+Notices - Source IP Addresses    
+and   
+Notices - Destination IP Addresses
+They were about midway down the page
+Not the field labeled
+Zeek-Notices-Notice Types
+-10
+
+Part 3 Step 2g Screenshot 
+- Screenshot format - Security Onion web based apps, such as Kibana, must be fullscreen inside the VM
+-2
+
+Part 3 Step 2g Screenshot 
+Your screenshot is not setup correctly for Security Onion screenshots.  Please Review the step in the front of each lab for how to setup your screenshots.
+-2
+
+
+Part 3 Step 3c screenshot
+- did not perform Part 3 Step 3a thru c
+-4 (partial-credit)
+Part 3 Step 3c -Screenshot format 
+- Screenshot instructions stated that the Terminal was to be FULLSCREEN
+-2 (partial-credit)
+
+
+Part 3 Step 3f 
+- The Event Message for this Alert ID was 
+ET TROJAN Ransomware/Cerber Checkin M3(15)
+-5
+Part 3 Step 3f 
+- The entire Event Message for this Alert ID was
+ET TROJAN Ransomware/Cerber Checkin M3(15)
+-2 (partial-credit)
+
+
+
+Part 3 Step 3g 
+- Wireshark is the packet analysis tool
+-5
+
+Part 3 Step 3g Screenshot - 
+You were supposed to paste a screenshot of the event (Alert ID 5.37) opened up in Wireshark
+-3 (partial -credit)
+Part 3 Step 3g Screenshot - 
+The Alert ID you were required to open with Wireshark would have opened 172.16.4.193_49203_194.87.234.129_80-6.raw
+-3 (partial -credit)
+
+
+
+
+
+Part 3 Step 3h 1 and 2 -
+-Count is 1179
+-Top alert category is trojan
+When setup correctly (timeline of 10 vs 8 yrs ago from the previous steps) and viewing NIDS-Alerts
+-10
+
+Part 3 Step 3h 1 
+- There are 1005 when setup correctly (timeline of 10 yrs ago) and viewing NIDS-Alerts
+-5
+
+Part 3 Step 3h 2
+- In the NIDS Alert - Category window it was trojan. 
+You are giving information you got from the NIDS - Alert Summary window
+-5
+
+
+
+
+Part 3 Step 3h 
+- Screenshot format - Security Onion web based apps, such as Kibana, must be fullscreen inside the VM
+-2
+Part 3 Step 3h 
+- missing screenshot
+-10
+Part 3 Step 3h 
+- Incorrect Screenshot.  This is a screenshot of the Dashboard / Overview page, not the Alert Data / NIDS page
+-10
+Part 3 Step 3h 
+- Screenshot does not show the NIDS-Alert Count so that it only supports one of your two answers.
+-5
+Part 3 Step 3h 
+- This step stated to change the time frame to Last 8 yrs.
+-2 (partial-credit) (Because you did capture the correct information in the timeframe you did set)
+
+
+
+
+Part 3 Step 4a screenshot
+- Missing
+-5
+Part 3 Step 4a screenshot
+- Screenshot instructions stated that the Terminal was to be FULLSCREEN
+-2
+Part 3 Step 4a screenshot
+- Did not perform clear command prior to the cd command
+-1 (partial-credit)
+
+
+
+Part 3 Step 4b screenshot
+- You are not in the correct folder.  You should have performed ls in the folder /var/log not /var/log/nsm
+-5
+Part 3 Step 4b screenshot
+- command not visible in your screenshot
+-5
+Part 3 Step 4b screenshot
+- Did not perform clear command prior to the cd command
+Did not perform the cd .. command
+-3 (partial-credit) (only if they did show the correct output)
+
+
+
+
+
+I did not take the points for being late, this time.  I'm aware that late on the weekends the server runs a bit slow.
+
+Be sure to not wait till late on Sunday nights going forward.

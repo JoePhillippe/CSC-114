@@ -1,0 +1,84 @@
+There were more than just two questions in A.1.  There were 23.
+It does not appear that you looked past the first two, from the way you wrote your paper
+-10
+
+
+
+You stated that it only takes one person to respond to the incident, but the section was talking about one person to be "in charge of incident response", managing how the team and the incident response activities are performed by the team.  
+A incident has many components and the document does not recommend a single person try to take on that task.
+-5
+
+I recommend you use a tool such as Grammarly to assist you in writing.  Some of the tense used did not match your paper.
+-5
+
+Requirements
+1. .... "only place your Canvas listed name at the top of the document (do not add a title, date, class information etc.)"
+-5
+
+
+The instructions were to review the questions in A.1 (not the A.2 Scenarios) and identify which one or more of those 23 questions you learned most from reviewing.
+-15
+
+Did not address "which question, or questions, provided you the most insight and why"
+-15
+
+
+In the second paragraph, you told me which questions provided you the most insightsm but did not make it clear "why" they provided you the most insight
+-10
+
+
+Did not put name at top of paper
+-5
+
+Instructions stated to upload to Canvas a Microsoft Word document with two or more paragraphs
+-10
+
+Less than 200 words, but more than 150 
+25-point deduction
+
+Less than 150 words, but more than 100 
+50-point deduction
+
+Less than 100 words, but more than 50 
+75-point deduction
+
+Less than 50 words 
+99-point deduction
+
+
+
+
+
+Instructions
+Read - Read the 23 questions in Appendix A.1– Scenario Questions (only A.1 not A.2) of the attached NIST SP 800-61r2. These basic incident response handling questions are some that could be asked during different stages of the incident response process and apply to almost any scenario. Each question is followed by a reference to the related section(s) of the NIST SP-800-61r2 to further understand the need for the question or the information that
+would be obtained from asking the question. Refer to those sections after reading the questions.
+
+
+Write – Upload a Word document with two or more paragraphs (minimum of 200 words for your paper).
+
+In the first paragraph, state of what you gained the most from reviewing all of the incident handling procedure questions and the NIST document.
+
+In the second paragraph, identify which question provided you the most insight and why? (See below for detailed requirements)
+
+
+Requirements
+
+1. Do not include a title page to your document.(Just add your name at the top of your paper and then your paragraphs to reduce the TurnItin plagiarism score)
+
+Also, do not type the questions, verbatim, that you got the most incite from to avoid getting hit by the plagiarism checker.
+• 11-point deduction for adding more than just your name and your two paragraphs to your uploaded document.
+
+2. Ensure that your paper has at least 200 words of useful content. Do not “tell me what you are going to say, say it, and paraphrase what you said.” I am looking for every sentence to be new material, useful, and not repeating any information you said in a prior sentence. (its not a long paper, so no fluff)
+
+Penalty for not getting to 200 words are as follows:
+Less than 200 words, but more than 150 25-point deduction
+Less than 150 words, but more than 100 50-point deduction
+Less than 100 words, but more than 50 75-point deduction
+Less than 50 words 99-point deduction
+
+3. Make sure you use a grammar and spellchecker.
+
+4. Plagiarism checker will be in use.
+View your plagiarism score after you upload your work (it may take up to an hour to give you your score). If your score is high, you need to redo it and resubmit your document and ensure you don’t lose points.
+• 30 percent or above plagiarism score, you will have 30 points deducted.
+• 50 percent or above plagiarism score - you will have 99 points deducted.

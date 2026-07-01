@@ -1,0 +1,169 @@
+16 questions @ 6pts each
+
+
+Part 1 Step 1d Screenshot (6pts)
+Part 1 Step 2b Questions 1 thru 6 (6pts each) (pic req for all 6)
+Part 1 Step 3b Questions 1 and 2 (6pts each) (pic req for #2)
+Part 1 Step 3e Question (6pts)
+Part 2 Step 1b Question (6pts)
+Part 2 Step 2b Question (6pts)
+Part 2 Step 3b Questions 1 and 2 (6pts each) (pic req for #1)
+Part 2 Step 3f Screenshot (6pts)
+Part 2 Step 3g Question (6pts) (pic req)
+
+
+Screenshots not in the correct format.  Lab 2, in the front of the student template, demonstrated how to take and paste your screenshots. 
+-11
+
+Late -30
+
+
+
+
+Part 1 Step 1d
+Your screenshot is showing that you did not view the NIDS alerts.
+-6
+
+Part 1 Step 1d
+Your screenshot is showing that you did not use the correct date. You were supposed to view only October 4th, 2019 and narrow that down.  Had you used the correct date, you would have had only 48 NIDS alerts.
+-6
+
+Part 1 Step 1d
+Your screenshot is showing that you did not narrow the focus at all.  Your start and end time is the start of the day and end of the day.  Had you narrowed it like the step stated, you would have had a start time around 15:00 and and and end time around 16:20
+-6
+
+Part 1 Step 1d
+Your screenshot is showing less than 48 logs, meaning that you narrowed (zoomed in) the results too much.  The end time should be around 16:15.
+-2 (partial-credit)
+
+Part 1 Step 1d
+Your screenshot shows you did not zoom in enough.  Supposed to ensure the line took up 75% to 90% of the timeline.
+-1 (partial-credit)
+
+Part 1 Step 1d
+Screenshot Format. Missing NDG Username
+-6
+
+
+Part 1 Step 2b 
+1- October 4th 2019, 15:05:54.000
+-6
+Part 1 Step 2b 
+1- October 4th 2019, 15:05:54.000
+-2 (partial-credit) (complete timestamps include all of the seconds out to the end)
+2 - 185.193.141.46
+-6
+3 - 80 
+-6
+4 - Russia
+-6
+5 - 172.163.2.219
+-6
+6 - High
+-6
+
+Part 1 Step 2b Screenshot
+-Format
+-2
+
+
+Part 1 Step 3b 1
+- xoccolearp[.]com
+-6
+Part 1 Step 3b 1
+- The requirement was to use the safety switch when entering your answer. i.e. 
+xoccolearp[.]com
+-3 (partial-credit)
+
+Part 1 Step 3b 2
+- bovex5.lz2
+-6
+
+Part 1 Step 3b Screenshot
+-Format
+-2
+
+
+Part 1 Step 3e
+- The requirement was to use the safety switch when entering your answer. i.e. 
+xoccolearp[.]com
+-3 (partial-credit)
+Part 1 Step 3e
+- xoccolearp[.]com
+-6
+
+
+Part 2 Step 1b 
+- 7 events
+-6
+
+
+
+Part 2 Step 2b 
+- Windows_XP_Vista_7_8_10_Server_32_64_Bit
+-6
+Part 2 Step 2b 
+- Windows_XP_Vista_7_8_10_Server_32_64_Bit is how it was listed. You are missing some items, and you have inserted some items.
+-3 (partial-credit)
+Part 2 Step 2b 
+- Windows_XP_Vista_7_8_10_Server_32_64_Bit
+-2 (partial-credit)
+Part 2 Step 2b 
+- Windows_XP_Vista_7_8_10_Server_32_64_Bit is how it was listed.
+You have added items that are not an affected "product"
+-3 (partial-credit)
+
+
+Part 2 Step 3b 1 
+- Trend Micro
+-6
+Part 2 Step 3b 1 
+- Trend Micro (if you would have scrolled down in the transcript to the EULA, you would have found that it showed who the software appeared to be from)
+-6
+Part 2 Step 3b 1 
+- Trend Micro (if you would opened the correct transcript which was alert ID 5.1027 not 1065, you would have found that it showed who the software appeared to be from)
+-6
+
+Part 2 Step 3b 2 
+- The question was not written well enough to get the answer that I was looking for, which was antivirus software (since the answer to Part 2 Step 3b 1 was Trend Micro an Antivirus Software company)
+
+
+Part 2 Step 3b Screenshot
+- Screenshot does not support answer to Part 2 Step 3b 1. Missing screenshot or screenshot not showing Trend Micro
+-6
+Part 2 Step 3b Screenshot
+- Was looking for this to support question 1.  Since Part 2 Step 3b 2 was not written well enough to have you provide a generic answer and since your screenshot supports your second answer, I did not take points
+
+Part 2 Step 3b Screenshot
+transcript window not fullscreen
+-2
+
+
+Part 2 Step 3f Screenshot
+NetworkMiner window not fullscreen
+-2
+Part 2 Step 3f Screenshot
+- Supposed to be a screenshot of NetworkMiner opening the same ID alert from Part 2 Step 3b.
+-6
+
+
+Extra Credit 
++15
+Extra Credit 
+- Because layer 2 information does not cross a layer 3 device (Layer 2 headers are removed and replaced with each hop), the Layer 2 information from the attacker's device never gets to our host and we are only seeing the layer 2 information that belongs to the interface of our local router (gateway device) (in this case a Cisco router or multilayer switch).
+
+
+Extra Credit 
+Yes, but the 'reason' is because layer 2 information does not cross layer 3 devices (Layer 2 headers are removed and replaced with each hop), therefore the Layer 2 information from the attacker's device never gets to our host and we are seeing the layer 2 information that belongs to the interface of our local router (gateway device) (in this case a Cisco router or multilayer switch).
++10 (partial-credit) 
+
+
+Part 2 Step 3g 
+- porn
+-6
+You would have probably gotten this correct had you captured/looked at the correct screenshot, which was the Details Tab.
+
+Part 2 Step 3g 
+- porn
+-6
+You would have probably gotten this correct had you entered the address correctly and were viewing the Details Tab, not the Detection Tab.

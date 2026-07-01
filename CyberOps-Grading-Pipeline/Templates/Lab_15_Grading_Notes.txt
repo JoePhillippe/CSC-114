@@ -1,0 +1,26 @@
+Part 1
+You did not find the correct NIST document most referenced in the certification blueprint. 
+The NIST document that was most referenced in the certification blueprint was the NIST SP 800-61 Revision 2, as noted from the Blueprint sections listed below:
+5.2 Describe the elements in an incident response plan as stated in NIST.SP800-61
+5.3 Apply the incident handling process such as NIST.SP800-61 to an event
+5.4 Map elements to these steps of analysis based on the NIST.SP800-61
+5.5 Map the organization stakeholders against the NIST IR categories (CMMC, NIST.SP800-61)
+You needed to conduct a comparison between NIST SP 800-61 r2 and the latest revision, NIST SP 800-61 r3.
+-10
+
+
+Part 2
+You were not prompt the AI to compare changes between the old version and the new version of the certification exam.  
+You were supposed compare the NIST document most referenced in the certification blueprint" with the newer version of that document.
+-40
+
+
+
+
+Part 3
+
+Your output never states what NIST document you are comparing.  Without any information in the output to identify which NIST document you are comparing, it cannot be graded.
+-50
+
+"Copy the results and paste them..."   
+This is multiple screenshots

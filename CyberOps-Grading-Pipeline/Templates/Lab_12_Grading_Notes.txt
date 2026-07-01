@@ -1,0 +1,340 @@
+20 questions @ 5pts each
+
+
+Part 1f Question (5pts) (pic required)
+Part 2c Screenshot (5pts) 
+Part 3e Screenshot (5pts) 
+Part 3i Screenshot (5pts) 
+Part 3n Question (5pts)
+Part 3o Screenshot (5pts) 
+Reflection 1 - 4 (20)(5pts each) 
+Bonus (15pts)
+Part 4 Step 1a 1 and 2 Screenshots (10pts)(5pts each)
+Part 4 Step 2a 1 and 2 (10pts)(5pts each)
+Part 4 Step 2e 1 and 2 (10pts)(5pts each) (pic required both to be correct)
+Part 4 Step 2f 1 and 2 (10pts)(5pts each) (pic required for both to be correct)
+Part 5 Step 2c (5pts) 
+Part 5 Step 2f (5pts) 
+
+
+
+Screenshots not in the correct format.  Lab 2, in the front of the student template, and the video link at the beginning of this lab document, demonstrated how to setup your screenshots if you are using a laptop with has a monitor that has a less than 1080p resolution. 
+-11
+
+
+
+You are required to set your PC's browser to be as wide as the VM's desktop, when you have the Security Onion Tab up and Security Onion set to Actual Size. 
+Since I did not put the reminder instructions at the beginning like in previous labs, I did not take the full 2 points per screenshot
+- 9 (-1 x 9 screenshots)
+
+Document not uploaded to Blackboard as a pdf file
+-5
+
+
+
+
+
+Part 1f - transcript window not fullscreen
+-1 (partial-credit)
+
+Part 1f 
+- The attacker did not give the myroot account a password as noted by the empty field between the colons :: following the username [myroot ::] (which is the location for the password)
+- transcript window not fullscreen
+-5
+
+Part 1f 
+- The attacker did not give the myroot account a password as noted by the empty field between the colons :: following the username [myroot ::] (which is the location for the password)
+-5
+
+
+Part 1f Screenshot
+- Instructions stated to "ensure the sensor name and timestamp are visible at the top in your screenshot" This meant that the blue field at the top of the transcript needed to be visible.
+-2 (partial-credit)
+
+
+
+Part 2c -  "Find" results of "myroot" not in the screenshot.
+-5
+Part 2c - Required to use the "Find" function to locate the result of "myroot" 
+"Find" results of "myroot" not in the screenshot.
+-5
+Part 2c - TCP Stream window must be fullscreen
+-1 (partial-credit)
+
+
+
+
+Part 3e - Required to take a screenshot of the All Logs section lower on the page to show the two log entries listed
+-5
+Part 3e - If you had correctly filtered for bro_ftp for the month of June 2020, your All Logs section would only have two entries listed with a date and time stamp of 
+June 11th, 2020, 03:53:09.086
+-5
+
+
+
+Part 3i - Required to provide a screenshot of the pcap file opened in Wireshark
+-5
+Part 3i - The pcap file opened in Wireshark is supposed to be from 192.168.0.11_52776 to 209.165.200.235_21 
+-5
+Part 3i - TCP Streams must be fullscreen
+-1 (partial-credit)
+
+
+
+Part 3n - Missing date portion.  Should be listed as June 11th 2020, 03:53:09.088
+-2.5 (partial-credit)
+Part 3n - Incorrect time portion.  Should be listed as June 11th 2020, 03:53:09.088
+-2.5 (partial-credit)
+Part 3n - left out .088 at the end
+-1 (partial-credit)
+Part 3n - left out :09.088 at the end of the time
+-1.5 (partial-credit)
+Part 3n - June 11th 2020, 03:53:09.088
+-5
+Part 3n - Required to list the date and time from the @timestamp field
+June 11th 2020, 03:53:09.088
+-5
+
+Part 3o - you were required to provide a screenshot of the file opened in capME! 
+-5
+
+
+
+Reflection 1
+- The IP address of the attacker is 209.165.201.17 (see your first screenshot's Src IP address). That was the initial attacker. They attacked 209.165.200.235 (analyst) and realized the analyst had root privileges which allowed them to create another user (myroot) and compromise the final target 192.168.0.11.
+Gave partial credit if you assumed it was 209.165.200.235
+-5
+-2.5 (partial-credit)
+
+
+Reflection 2
+- The victims were 192.168.0.11 and 209.165.200.235
+-5
+
+- Missing 192.168.0.11
+-2.5 (partial-credit)
+
+- Missing 209.165.200.235
+-2.5 (partial-credit)
+
+
+Reflection 3
+- The attacker used the analyst account (209.165.200.235) that they gained access to
+-5 
+- The attacker used the analyst account (209.165.200.235) that they gained access to
+(if you said root, I've given you partial credit) (Remember, user account and user account privileges (i.e. root) are not the same) 
+-2.5  (partial-credit)
+
+Reflection 4
+- The attacker got the user's information from viewing the
+etc/shadow
+and
+etc/passwd files   
+-5
+
+- Missing etc/shadow    
+-2.5 (partial-credit)
+
+- Missing etc/passwd file
+-2.5 (partial-credit)
+
+Bonus - They created a root privileged account (myroot) so that if they lost access to the account they originally took over (analyst) that had root privileges, they would have another way to access the system (i.e. they created a backdoor).
++10 (partial-credit)(if they stated that the root may be monitored)
+
+Bonus - 
++15 pts
+
+Bonus - Yes, they created a backdoor
++15 pts
+
+
+
+
+
+Part 4 Step 1a 1
+- The Alert ID of the first event of this attack is 
+5.439 
+timestamped 2019-03-19 01:45:03
+-5
+Part 4 Step 1a 1 
+- Wireshark must be fullscreen
+-1
+
+
+Part 4 Step 1a 2 
+- The Alert ID of the last event of this attack is 
+5.942 
+timestamped 2019-03-19 04:54:34
+-5
+Part 4 Step 1a 2 
+- Wireshark must be fullscreen
+-1
+
+
+
+
+
+Part 4 Step 2a 1 
+-  Missing
+dst IP 209.141.34.8
+dst prt 80
+-2.5 (partial-credit)
+
+Part 4 Step 2a 1 
+-  Missing
+src IP 10.0.90.215
+src prt 49204
+dst prt 80
+-3 (partial-credit)
+
+Part 4 Step 2a 1 
+-  Missing
+src prt 49204
+dst IP 209.141.34.8
+dst prt 80
+-3 (partial-credit)
+
+Part 4 Step 2a 1 
+-  Missing
+src IP 10.0.90.215
+src prt 49204
+dst IP 209.141.34.8
+dst prt 80
+-5
+
+Part 4 Step 2a 1 
+- Missing
+src prt 49204
+-1 (partial-credit)
+
+
+
+Part 4 Step 2a 2 
+- The request is for the file test1.exe
+-5
+Part 4 Step 2a 2 
+- The request is for the file test1.exe
+-2.5 (partial-credit)(student stated "a file")()
+
+
+
+
+
+Part 4 Step 2e 1 
+- The correct answer was  
+Src IP: 10.0.90.215
+Src port: 49205
+Dst IP: 103.1.184.108 
+Dst port: 2404
+-5
+
+Part 4 Step 2e 1 
+- Missing 
+Src port: 49205
+Dst IP: 103.1.184.108 
+Dst port: 2404
+-3 (partial-credit)
+
+Part 4 Step 2e 1 
+- Missing  
+Src port: 49205
+-1 (partial-credit)
+
+Part 4 Step 2e 1 
+- Missing  
+Dst port: 2404
+-1 (partial-credit)
+
+Part 4 Step 2e 1 
+- Missing  
+Dst IP: 103.1.184.108 
+Dst port: 2404
+-2.5 (partial-credit)
+
+Part 4 Step 2e 1 
+- Missing  
+Src IP : 10.0.90.215
+Dst port: 2404
+-2.5 (partial-credit)
+
+Part 4 Step 2e 1 
+- Missing  
+Dst port: 2404
+-2.5 (partial-credit)
+
+Part 4 Step 2e 1 
+- Missing  
+Src port: 49205
+Dst port: 2404
+-2.5 (partial-credit)
+
+
+
+Part 4 Step 2e 2 
+- It is encrypted
+-5
+
+
+
+Part 4 Step 2e Screenshot 
+- transcript not fullscreen
+-1 (partial-credit)
+
+
+Part 4 Step 2e Screenshot 
+-Supposed to be a screenshot of the transcript not the information in Wireshark
+-5 (partial-credit)
+
+Part 4 Step 2e Screenshot 
+- Missing
+-10
+
+
+
+
+Part 4 Step 2f 1 
+- 217.23.14.81  
+-5
+
+Part 4 Step 2f 2 
+- f4.exe
+-5
+
+Part 4 Step 2f Screenshot
+- Supposed to be a screenshot of the transcript of 10.0.90.215 to 217.23.14.81
+-10
+
+Part 4 Step 2f Screenshot 
+- transcript not fullscreen
+-1 (partial-credit)
+
+
+
+
+
+Part 5 Step 2c 
+- Trojan
+-5
+
+
+Part 4 Step 2f Screenshot 
+- transcript not fullscreen
+-1 (partial-credit)
+
+
+
+Part 5 Step 2f 2
+- The correct response was 
+/f4.exe   |   ncsi.txt   |   pki/crl/products/CSPCA.crl   |   test1.exe
+-5
+-2.5  (partial-credit) You have two correct
+
+Part 5 Step 2f 2
+- The correct response was 
+/f4.exe   |   ncsi.txt   |   pki/crl/products/CSPCA.crl   |   test1.exe
+-1 (partial-credit) You have three correct
+
+Part 5 Step 2f 2
+- Format was 
+URI   |   URI   |   URI   |   URI
+-1 (partial-credit)

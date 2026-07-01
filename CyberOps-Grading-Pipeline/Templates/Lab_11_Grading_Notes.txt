@@ -1,0 +1,308 @@
+12 questions @ 8pts each
+
+
+Part 1h (8pts) Screenshot
+Part 1h (8pts) Question 
+Part 2f (8pts) Screenshot
+Part 3 Step 2c (16pts) 2 questions 8pts each (pic required)
+Part 3 Step 2c (8pts) Question 3 Screenshot 
+Part 3 Step 3d (16pts) 2 questions 8pts each (pic required)
+Part 4 Step 2e (16pts) 2 questions 8pts each (pic required)
+Part 4 Step 3c question (8pts) (pic required)
+Reflection (8pts)
+Extra Credit Part 1 (5 pts)
+Extra Credit Part 2 (8pts) 
+
+
+
+Screenshots not in the correct format.  Lab 2, in the front of the student template, and the video link at the beginning of this lab document, demonstrated how to setup your screenshots if you are using a laptop with has a monitor that has a less than 1080p resolution. 
+-11 (-2 x 7 screenshots for a max of 11)
+
+Screenshots not in the correct format.  Lab 2, in the front of the student template, and the video link at the beginning of this lab document, demonstrated how to setup your screenshots if you are using a laptop with has a monitor that has a less than 1080p resolution. 
+-10 (-2 x 5 screenshots for a max of 11)
+
+
+You are required to set your PC's browser to be as wide as the VM's desktop, when you have the Security Onion Tab up and Security Onion set to Actual Size. 
+If you see a scroll bar at the bottom, like in Part 3 Step 2c, you are not sized correctly
+Since I did not put the reminder instructions at the beginning like in previous labs, I did not take the full 2 points per screenshot
+- 8 (-1 x 8 screenshots)
+
+
+
+Two of your screenshots, did not have the terminals full screen (-2 each)
+You are required to set your PC's browser to be as wide as the VM's desktop, when you have the Security Onion Tab up and Security Onion set to Actual Size. 
+Since I did not put the reminder instructions at the beginning like in previous labs, I did not take the full 2 points per screenshot
+- 4 (-1 x 4 screenshots)
+-8
+
+
+Part 1h Screenshot - 
+Supposed to attach a screenshot of the tcp stream to support the answer provided.  
+-16
+Part 1h Screenshot - 
+tcp stream window not fullscreen.
+-2
+
+
+Part 1h Question - 
+It indicates that it is an MS-DOS executable file.
+-8
+
+
+
+
+Part 2f 
+Missing screenshot
+-8
+Part 2f 
+Was supposed to be in the home folder of analyst
+-8
+Part 2f 
+Terminal window not fullscreen.
+-2
+Part 2f 
+Did not perform the first command under Part 2f, the clear command
+-2
+Part 2f 
+You shouldn't have logged in at root at any point of the lab.  That is the only way you'd be able to see results showing files belonging to root
+
+
+
+
+
+Part 3 Step 2c 1 and 2 -
+Screenshot is not of the @timestamp row, as directed.
+
+Question 1
+June 12th 2020, 21:30:09.445
+
+Question 2
+2020-06-19T18:50:33.318Z
+-16
+
+Part 3 Step 2c 1, 2 and 3 -
+You used the incorrect date.  You were supposed to select June 2020 not 2024
+-24
+
+Part 3 Step 2c 1, 2 and 3 -
+You are not at the bottom of the page viewing the HTTP - Logs as stated in Part 3 Step 2b and c. So you did not find the logs to answer the three questions asked
+And for the third question it was asking for the uri and uri length row of the first HTTP-Log
+-24
+
+Part 3 Step 2c 1 and 2 - Did not expand the first entry to show/support the answers to the questions.
+the @timestamp nor the other timestamp are visible in screenshot
+-16
+
+
+Part 3 Step 2c 1 and 2 - Incorrect event entry led to both of the answers being incorrect.  
+The first event @timestamp was June 12th 2020, 21:30:09.445
+The second @timestamp is 2020-06-19T15:50:33.318Z
+-16
+
+
+Part 3 Step 2c 1 and 2 - Did not enter the entire timestamp.  Missing the milliseconds of time for each timestamp
+The first @timestamp is 
+June 12th 2020, 21:30:09.445
+The second @timestamp is 
+2020-06-19T15:50:33.318Z
+-4 (partial-credit)
+
+Part 3 Step 2c 1 and 2 - Did not enter the entire timestamp.  Missing the last digits of the milliseconds of time for each timestamp
+The first @timestamp is 
+June 12th 2020, 21:30:09.445
+The second timestamp is 
+2020-06-19T15:50:33.318Z
+-2 (partial-credit)
+
+Part 3 Step 2c 1 and 2 - Did not enter the entire timestamp.  Missing the dates for each timestamp
+The first @timestamp is June 12th 2020, 21:30:09.445
+The second @timestamp is 2020-06-19T15:50:33.318Z
+-8 (partial-credit)
+
+
+Part 3 Step 2c Question 1 - missing the time portion of the timestamp
+-4 (partial-credit)
+
+
+Part 3 Step 2c Question 2 -
+the second timestamp row (further down the list) stated -
+2020-06-19T15:50:33.318Z
+-8
+Part 3 Step 2c Question 2 - the second timestamp row stated - 2020-06-19T15:50:33.318Z
+Missing colon in the time
+-2 (partial-credit)
+
+
+Part 3 Step 2c 3 - uri and uri_length fields not visible in your screenshot
+-8
+Part 3 Step 2c 3 - Incorrect screenshot
+-8
+Part 3 Step 2c Screenshot - Kibana not fullscreen in VM
+-2
+
+
+
+
+Part 3 Step 3d 1 - 
+5 sets of usernames 
+5 sets of passwords
+5 sets of signature 
+-8
+
+
+
+Part 3 Step 3d 2 - 
+Question asked for the last one, 10/10
+Username is 1234567812345678 
+Password is 627
+-8
+Part 3 Step 3d 2 - 
+Username is 1234567812345678 
+Password is 627
+-8
+Part 3 Step 3d 2
+- Password is 627
+-4 (partial-credit)
+Part 3 Step 3d 2 - Username is 1234567812345678
+-4 (partial-credit)
+Part 2f Screenshot - Terminal window not fullscreen.
+-2 (partial-credit)
+Part 3 Step 3d Question 2 - Screenshot incorrect. Is not the LAST one and does match the answer provided for this question.
+-8
+
+
+
+Part 4 Step 2e - Screenshot missing to support your answers. 
+-16
+
+Part 4 Step 2e - Screenshot and answers show that you did not properly perform Part 4 Step 2d and Enter example.com in the search bar to filter for example.com and click Update.   You have all of the old information still present therefore to get the correct answers for e 1 and 2 would not be possible from the screenshot you provided
+-16
+
+Part 4 Step 2e - Screenshot and answers show that you did not properly perform Part 4 Step 2d and Enter example.com in the search bar to filter for example.com and click Update on the Kibana Dashboard > Zeek Hunting > DNS page
+You are on Kibana Discover   
+-16
+
+Part 4 Step 2e question 1 - 192.168.0.11
+-4 (partial-credit)
+Part 4 Step 2e question 1 - Must submit the correct screenshot.  The correct screenshot would only have a single client IP listed and an single Server IP listed.
+-8
+Part 4 Step 2e question 2 - 209.165.200.235
+-4 (partial-credit)
+
+
+
+Part 4 Step 3c Question -
+No, they were not DNS queries; they were data converted to hexadecimal strings that was being exfiltrated via DNS queries but did not look like a typical DNS lookup such as google.com or faytechcc.instructure.com
+-8
+Part 4 Step 3c -
+Page 3 and 4 of this document states that all screenshots of the Security Onion VM, to include terminal windows, are always fullscreen.
+Part 4 Step 3c - 
+Page 3 and 4 of this document states that "No screenshots within the Security Onion VM are to be cut off at the bottom"
+-2
+Part 4 Step 3c - Missing screenshot.
+-8
+Part 4 Step 3c - Incorrect screenshot.  Did not show the command or output of cat secret.txt
+-8
+Part 4 Step 3c Question - Required a yes or no response, so that you showed that you knew if the DNS queries were or were not actual subdomains.
+No, they were not DNS queries; they were data converted to hexadecimal strings that was being exfiltrated via DNS queries but did not look like a typical DNS lookup like google.com or microsoft.com.
+-8
+Part 4 Step 3c Question - No they were not DNS queries; they were text converted to hexadecimal strings of data that was being exfiltrated via DNS to look like DNS queries but was actually a message as seen in the screenshot that you provided with this question.
+-8
+Part 4 Step 3c Question - The text was not encrypted, but was text converted to hexadecimal strings of data that was being exfiltrated via DNS
+Had it been encrypted, without a key, you would not been able to view it in the attached screenshot
+-4 (partial-credit)
+
+
+Reflection
+Per the link you were supposed to use in the lab, would have accepted 4 of the following: They were listed in the last paragraph of the article called Detection and mitigation
+
+•	Implementing network inspection via security products where DNS traffic can be analyzed
+•	Limiting clients DNS traffic and creating rules triggered when a specific threshold is reached
+•	Setting-up dedicated DNS servers
+•	Creating network segmentation
+•	Using firewalls on the necessary ports
+•	Blocking unauthorized channels
+•	Implementing data loss prevention policies
+•	Raising awareness for employees about these types of scenarios
+-8
+
+Reflection
+Did not ensure one entry per line, as the questions stated.
+-2
+
+
+
+
+If this is the response or similar from the student
+Implementing DNS Query Logging and Monitoring
+Restricting External DNS Communications
+Utilizing DNS Filtering Solutions
+Implementing Data Loss Prevention
+
+
+
+Reflection
+Per the link you (not the internet or AI) should have come up with the following.
+Would have accepted 4 of the following: They were listed in the last paragraph of the article called Detection and mitigation
+•	Implementing network inspection via security products where DNS traffic can be analyzed
+•	Limiting clients DNS traffic and creating rules triggered when a specific threshold is reached
+•	Setting-up dedicated DNS servers
+•	Creating network segmentation
+•	Using firewalls on the necessary ports
+•	Blocking unauthorized channels
+•	Implementing data loss prevention policies
+•	Raising awareness for employees about these types of scenarios
+-4 (half-credit)
+
+
+
+
+Extra credit not performed
+
+Extra Credit
++15
+
+Extra Credit Part 1 - 
++5
+
+Extra Credit Part 1 - 
+The first part stated to paste a screenshot with the prompt that you used and list of output.  No prompt is visible to see what your query was asking for
+
+Extra Credit Part 2 - 
+The second part stated to provide a "very detailed analysis" 
+This is not detailed, but a summary, at best.
++3
+
+Extra Credit Part 2 - 
+The second part stated to provide a "very detailed analysis of one of the campaigns / attacks" This is an analysis of how the attacker used DNS exfiltration as a tool. 
++3
+
+Extra Credit - The second part stated that you had to ensure the AI output of the analysis mentioned that DNS exfiltration was used, otherwise pick another
++5
+
+Extra Credit - The second part said to paste the AI output, not a screenshot, which did not capture the entire output
++5
+
+Extra Credit - The first part stated to paste a screenshot of the prompt that you were to use to get a list of breaches / attacks.
+The second part said to paste the AI output, not a screenshot. Fortunately, you captured the entire output.
++8
+
+Extra Credit - The first part stated to paste a screenshot of the prompt that you were to use to get a list of breaches / attacks.
+Your prompt needed to be reworded to provide you the list and not an explanation of what DNS exfiltration attacks look like
++10
+
+
+Extra Credit - Your AI query needed to use the term "DNS exfiltration" to provide a list of attacks that the attackers exfiltrated the data via DNS queries. Since yours did not limit it to DNS as the data exfiltration method, you ended up using one for the second part where DNS was not how the data was siphoned out of the network. 
+
+
+I didn't take points, but if you look at your detailed analysis, SolarWinds SUNBURST analysis stated that the primary method of data exfiltration was HTTP-based not DNS based
+
+Phase 7: Data Exfiltration
+Once inside high-value environments:
+Methods:
+• HTTP-based encrypted exfiltration
+• Cloud service abuse
+• Staged data transfers
+
+
+I accepted this, but the analysis of the SolarWinds SUNBURST stated that the primary method of data exfiltration was HTTP-based not DNS based.  DNS exfiltration was mainly used for C2 and to ID the target for further exploitation.

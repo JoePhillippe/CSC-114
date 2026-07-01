@@ -1,0 +1,27 @@
+Not submitted as pdf
+
+-5
+
+
+
+Not submitting work on Lab Document provided
+-5
+
+
+Part 2 - Did not provide a detailed analysis on page 2 as required
+-30
+ (If you do all the analysis under part 1)
+
+Part 2 stated "Only provide the analysis of the SolarWinds Orion Attack...."
+-15
+
+
+
+If this is the CoPilot output that you received, then one of two things happened:
+1. You did not log into your school Office 365 with CoPilot account and use that version which is an enterprise version that provides a more robust, detailed response to queries.
+2. You did not use the exact prompt provided to you which included the term 'detailed analysis' since it did not return a detailed analysis, but just a summary.
+-20 
+
+   
+
+It will be very important when you get your first cybersecurity role that you can follow procedures as they are written since you will not have the exerience to deviate.
