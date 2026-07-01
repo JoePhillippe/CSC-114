@@ -1,0 +1,193 @@
+25 questions @4pts each
+
+Your screenshot format does not follow the directions in the beginning of the lab, you did not align your personal browser with the client 
+-11
+
+
+
+Part 1i questions (x2) 4pts each (pic required)
+Part 1j questions (x3) 4pts each (pic required)
+Part 1k questions (x3) 4pts each (pic required)
+Part 1o questions (x5) 4pts each (pic required)
+Part 2b questions (x2) 4pts each (pic required)
+Part 2c questions (x2) 4pts each (pic required) 
+Part 2d questions (x2) 4pts each (pic required) 
+Part 2e questions (x6) 4pts each (pic required) 
+
+
+
+Wireshark is always fullscreen, vertically and horizontally.  You do not crop out any portion of Wireshark
+
+
+Screenshot instructions stated to "ensure the correct subfield and sub-subfields that support your answers are visible and that one of the answers is selected/highlighted in your screenshot, otherwise the questions will be incorrect."
+
+
+
+Part 1i #1 - Since you are looking at packet 4 (the DNS query response) not packet 2 (the DNS query), you are not able to get the answer.
+-4
+
+Part 1i #1 - The destination MAC address is 00:50:58:f0:01:58
+-4
+
+Part 1i #1 - The destination MAC address is 00:50:58:f0:01:58
+Your answer was 00:50:56:e6:61:a6, which is found online from past labs.  You need to do the labs without looking for the lab already completed online.
+-50
+
+
+Part 1i #2 - The answer is default gateway. 
+Any traffic addressed to any IP address outside of your network (which 8.8.8.8 would be on the internet and outside your network) will have be addressed at layer 2 (MAC address) to your network's default gateway so it can get out of your network.  
+-4
+
+Part 1i #2 - The two word answer is default gateway. 
+R3 is the device.
+-2 (partial-credit)(If they answer wity R3)
+
+Part 1i Screenshot - Did not highlight correct field in the Detail Pane
+-1 (partial-credit) (supposed to be -4 per question)
+
+Part 1i Screenshot - Did not expand the Destination subfield 
+-1 (partial-credit)
+
+Part 1i Screenshot - Did not apply the correct display filter of 'dns'
+-4
+
+Part 1i Screenshot - you entered the correct display filter, but you did not hit enter or click on the arrow to the right of the filter bar to apply it.  That is evident by the blue arrow to the far right of the display filter bar not being grey and because you see other protocols than DNS in your list.
+-4
+
+
+
+
+Part 1j #1 - The answer is UDP
+-4
+
+Part 1j #2 - The answer is 8.8.8.8
+-4
+
+Part 1j #3 - The answer is Google's public DNS server or Google's DNS Server
+-4
+
+Part 1j Screenshot - Did not highlight one of the fields in the Detail Pane that was one of the answers above.
+-4 (supposed to be -4 per question)
+
+
+
+
+Part 1k #1 - 44188
+-4 
+
+Part 1k #1 - 44188
+- Your answer was 59009, which is found online from past labs.  You need to do the labs without looking for the lab already completed online.
+-50  (if they have already had 50 points taken for this on this lab, do just deduct 4 points)
+
+
+Part 1k #2 - 53
+-4 
+
+Part 1k #3 - DNS
+-4 
+
+Part 1k Screenshot - Did not highlight correct field in the Detail Pane
+-4 (supposed to be -4 per question)
+
+Part 1k Screenshot - required to expand the UDP field to answer the questions
+-4 (2 x 4pts each)
+
+
+
+Part 1o #1 - The answer is www.google.com
+-4
+Part 1o #2 - The answer is 0x7d19
+-4
+Part 1o #3 - The answer is 5 (the last line under Queries, in blue)
+-4
+Part 1o #4 - The answer is A
+-4
+Part 1o #5 - The answer is IN
+-4
+
+Part 1o Screenshot - Did not highlight correct field in the Detail Pane
+-4 (partial-credit) (supposed to be -4 per question)
+
+Part 1o Screenshot - The last 2 answers were found by expanding the Queries subfield under the DNS field.  You did not expand the Queries field to show in your screenshot or see the answers to the questions
+-8
+
+
+
+Part 2b #1 - The correct answer is 8.8.8.8
+-4
+
+Part 2b #2 - The correct answer is 192.168.0.11
+-4
+
+Part 2b Screenshot - Did not highlight correct field in the Detail Pane
+-4 (partial-credit) (supposed to be -4 per question)
+
+Part 2b Screenshot - incorrect screenshot, this is not packet 5 (the IPv4 DNS query response to packet 2)
+-8
+
+Part 2b Screenshot - not setup per instructions in Part 2a.
+-1 (partial-credit)
+
+Part 2b Screenshot - Did not expand the IPv4 field
+-1 (partial-credit)
+
+
+
+Part 2c #1 - The answer is 53
+-4
+
+Part 2d #2 - The answer is 44188
+-4
+
+Part 2c Screenshot - Did not highlight correct field in the Detail Pane
+-4 (partial-credit) (supposed to be -4 per question)
+
+Part 2c Screenshot - Your answers had to come from packet 5 (the IPv4 DNS query response to packet 2) (This is not packet 5)
+-8
+
+
+
+Part 2d 1 and 2 - Your answers had to come from packet 5 (the IPv4 DNS query response to packet 2)
+-8
+
+Part 2d #1 - The answer is 0x7d19
+-4
+
+Part 2d #2 - The answer is 172.217.4.196
+-4
+
+Part 2d Screenshot - Did not highlight correct field in the Detail Pane
+-4 (partial-credit) (supposed to be -4 per question)
+
+
+Part 2e - Screenshot does not show the Answers subfield expanded to show any of the answers you provided
+At a minimum, you had to show the Answers subfield expanded, which is where the answers for all of these came from
+-24
+
+Part 2e #1 - The answer is 2
+-4
+
+Part 2e #2 - The answer is CNAME
+-4
+
+Part 2e #3 - The answer is CNAME
+-4
+
+Part 2e #4 - The answer is plus.1.google.com
+-4
+
+Part 2e #5 - The answer is A
+-4
+Part 2e #5 - The answer is A
+-2 (partial-credit) (if they answered (host address))
+
+Part 2e #6 - The answer is 172.217.4.206
+-4
+
+
+
+Part 2e Screenshot - Did not highlight and correct field in the Detail Pane
+-4 (partial-credit) (supposed to be -4 per question)
+
+Part 2e Screenshot - You are looking at the Queries subfield instead of the Answers subfield, which explains why you got so many questions incorrect.
+-4

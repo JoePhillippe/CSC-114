@@ -1,0 +1,109 @@
+10 questions @10pt each
+
+When showing mostly terminal windows, you must open them in fullscreen to allow for better viewing
+
+Please crop off the bottom of your screenshots, when the bottom is not required, so that you can paste the screenshots onto the pages and have the width about the same width as the page margins
+This will make it easier to see your commands and answers inside Blackboard
+
+
+
+Your screenshot format does not follow the directions in the beginning of the document.  You have to take your browser out of fullscreen and line it up with the NDG's Client desktop width
+Also, ensure any part of your personal browser is not in the screenshot (for your own personal security, for one)
+-5 (2pt per screenshot up to 11 points.) (1pt per screenshot first labs discount)
+
+
+
+
+
+
+
+Part 1 Step 1a - Missing
+It indicates that access to .htpasswd was denied to a client coming from an external ip address.
+Since the question stated to use a search engine to find out what this meant and view this as a security incident, you would have seen what .htpasswd is used for and realized someone was attempting to access the webserver's password file.
+You would want look into incidents where someone was attempting to access a file that contains user credentials.
+-10
+
+
+Part 1 Step 1a - It indicates that access to .htpasswd was denied to a client coming from an external ip address.
+Since the question stated to use a search engine to find out what this meant and view this as a security event, you should have found out what the purpose of .htpasswd was and realized an external entity was attempting to access the webserver's password file.
+You would always investigate incidents where someone was attempting to access a file that contains user credentials.
+-10
+
+Part 1 Step 1a - More specifically, it indicates that access to .htpasswd was denied to a client coming from an external ip address.
+Since the question stated to view this as a security event, you would assume someone appears to be trying to access the webserver's password file.
+
+
+Part 1 Step 1a - Not configuration information, but user credentials.  From your search you should have identified the purpose of .htpasswd.
+-3 (partial credit)
+
+
+
+
+Part 1 Step 1d - Screenshot does not support your answer.  You did not get the correct screenshot because you did not enter the correct command. (typo in your command)
+-10
+
+Part 1 Step 1d - If you look closely at the entries, they all begin with IP addresses
+-10
+
+Part 1 Step 1d - More specifically, IP addresses.
+
+
+
+
+
+Part 1 Step 2b - the command that was required to be visible in the screenshot was
+sudo more /var/log/messages
+-10
+
+
+
+
+Part 1 Step 2f - the command that was required to be visible in the screenshot was
+sudo grep ‘May 19 04:20’ /var/log/messages | grep ‘NIC Link’
+-10
+
+Part 1 Step 2f - the command you were supposed to use was
+sudo grep ‘May 19 04:20’ /var/log/messages | grep ‘NIC Link’
+You did not enter the time as shown in the lab instructions
+-10
+
+
+
+
+Part 2d - nginx is not running until step e, which is when you were required to start the nginx service in the lab. It is not on by default.  You can see the difference in the output of the command in Part 2d vs Part 2f.
+-10
+
+Part 2d - You have to answer the question, then provide supporting evidence via a screenshot.
+nginx is not running until step e, which is when you were required to start the nginx service in the lab. It is not on by default.  You can see the difference in the output of the command in Part 2d vs Part 2f.
+Per your answer, your screenshot does not show a master and worker process running
+-10
+
+
+Part 2i - in future labs, if the screenshot instructions state to show some of the output, and you only show one line of output, you will have points deducted
+
+
+
+
+Part 2k - Unless otherwise stated, show only the terminal that you are currently working in and ensure it is fullscreen
+
+
+
+
+Part 3 Step 1d - incorrect command.   You were supposed to use   
+sudo journalctl –-list-boots
+-10
+
+
+
+ 
+
+Part 3 Step 1e - Incorrect command.   You were supposed to use   
+sudo journalctl --since "2 hours ago"
+-10
+
+Part 1 Step 1e - the command is not visible in the screenshot
+-10
+
+
+
+

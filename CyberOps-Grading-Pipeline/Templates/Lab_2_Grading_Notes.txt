@@ -1,0 +1,464 @@
+16 questions @6pt each
+
+Please refer to Figure 1 page 3 of this lab. Do not capture the bottom of the terminal (area with no information to show) so that your screenshot will show up larger when you paste it to the document.
+
+After you paste the screenshots into the boxes, please leave it as is.    Do not stretch it to fill in the box all the way to the right.   You may have a little space to the right of your screenshots left over in the box with some of your screenshots.  The reason for leaving it alone is because when you stretch the screenshot is also stretches and distorts the text in the screenshot.
+
+
+Screenshot Formatting Issues - Too Small
+Refer to the first pages of this document.  Need to take your PCs browser out of fullscreen to make your screenshots show up larger.
+Also, please do not capture the area above NDG logo.  I don't want your personal browser in the screenshot (for your privacy, for one)
+Also, please do not capture the area below NDG VM screen.  I don't want your personal PC in the screenshot (for your privacy, for one)
+-5 (first lab partial-credit)
+
+
+
+
+Part 1 Step 2b - First full paragraph of Description not visible
+-1 (partial-credit)
+
+
+
+Part 1 Step 2d - The function of the ls command is to list directory contents
+-6
+
+Part 1 Step 2d - The function of the ls command is to list information "about files" or directory "contents"
+-1 (partial-credit)
+
+
+
+
+Part 1 Step 3f  - The answer to the question is:
+_ftcc_folder_2 
+(you have to give the actual names of files / directories / etc. not generalized names)
+-2 (partial-credit)
+
+Part 1 Step 3f - The folder you are in is:
+_ftcc_folder_2
+-6
+
+Part 1 Step 3f - The name of the folder is:
+_ftcc_folder_2
+Linux is case sensitive, therefore, Ftcc and ftcc are not the same 
+
+
+Part 1 Step 3f - The name of the folder is:
+_ftcc_folder_2
+analyst@secOps is the username and domain you are logged into and is not part of the folder / directory name
+-2 (partial-credit)
+
+Part 1 Step 3f - screenshot show you failed to create ftcc_folder1
+-2 (partial-credit)
+
+
+
+Part 1 Step 3g - screenshot missing the command
+cd ~
+and the output
+-6
+
+Part 1 Step 3g - screenshot missing the ~ in the command
+-6
+
+Part 1 Step 3g - screenshot shows you were not in the correct folder when you entered the command cd ~   Therefore, when you entered it, you stayed in the same folder
+-6
+
+Part 1 Step 3g - because you did not do the clear command correctly, which you just hit enter after using the clear command, then type in cd~ and hit enter to get into the correct folder.
+-6
+
+
+Part 1 Step 3g - did not perform the clear command 
+-1 (partial-credit)
+
+
+
+
+Part 1 Step 3m - The answer to the first question is:   You moved up a folder into the parent of ftcc_folder_3.  (looking for moved up one folder or moved into the parent folder)
+-2 (partial-credit)
+
+Part 1 Step 3m - The answer to the second question is:
+_ftcc_folder_2 
+(you have to give the actual names of files / directories / etc. not generalized names)
+-1.5 (partial-credit)
+
+Part 1 Step 3m - The answer to the second question is:
+_ftcc_folder_2  (since you moved up one folder into the parent of _ftcc_folder_3)
+-3 (half-credit)
+
+Part 1 Step 3m - The answer to the first question is:   You moved up a folder into the parent of _ftcc_folder_3. 
+The answer to the second question is;
+The name of the folder is _ftcc_folder_2
+-6
+
+Part 1 Step 3m - More accurately than "the next directory" is to state that it moved you either "up" a directory or moved you "into the parent directory" of _ftcc_folder_2. 
+-1 (partial-credit)
+
+Part 1 Step 3m - The command required you to put a space between cd and ..    The first question asked what happens.   You moved up a folder into the parent of _ftcc_folder_3. 
+The second question asked what was the name of the folder you should have moved to:  _ftcc_folder_2
+-6
+
+Part 1 Step 3m -  Actually you moved "up" back into the parent of _ftcc_folder_3 and linux is case sensitive therefore it is _ftcc_folder_2
+-3 (half-credit)
+
+Part 1 Step 3m - The answer to the first question is:   You moved up a directory into the parent of _ftcc_folder_3. 
+The answer to the second question is;
+The name of the folder/directory is _ftcc_folder_2
+Insert your answer below indicates you have to answer it with text, insert your screenshot indicates you are providing a screenshot
+A screenshot for a question you are asked to answer does not indicate you understand what is happening
+-6
+
+
+
+
+Part 1 Step 4e - did not perform the clear command prior to cd /home/analyst/ command
+-1 (partial-credit)
+
+Part 1 Step 4e - missing ls -l some_text_file command just prior to the cat some_text_file command
+-1 (partial-credit)
+
+
+
+
+
+
+Part 1 Step 5b - screenshot missing
+-6
+
+Part 1 Step 5b - screenshot shows that you inserted the command incorrectly.  You used >  when you were supposed to use >> to append the command.
+-6
+
+Part 1 Step 5b - screenshot shows that you performed the step correctly but the command that shows the output does not show the output of that command. 
+-2.5 (partial-credit)
+
+
+
+
+Part 1 Step 6c - The dot (.) and dot-dot (..) represent the current directory in the filesystem and one level above the current directory, respectively. They are not files
+Missing
+.bashrc
+.bashrc_stock
+-2 (partial-credit)
+
+Part 1 Step 6c - Remember, per your first answer, files are listed alphabetically....the correct five were
+.bash_history
+.bash_logout
+.bash_profile
+.bashrc
+.bashrc_stock
+Missing two of the above
+-2 (partial-credit)
+
+Part 1 Step 6c - The answer is
+.bash_history
+.bash_logout
+.bash_profile
+.bashrc
+.bashrc_stock
+-6 
+
+
+Part 1 Step 6c - One of the files is incorrect, it was 
+.bashrc
+-1 (partial-credit)
+
+Part 1 Step 6c - Two of the files are incorrect, they were 
+.bashrc and .bashrc_stock
+-2 (partial-credit)
+
+
+
+
+
+Part 1 Step 6f - screenshot was supposed to be of the command and output of ls - a 
+-6
+
+
+
+
+
+
+
+Part 2 Step 3b - the file some_text_file.txt is not in /home/analyst/    
+Since the mv command is not visible in the screenshot, as required, cannot see if you forgot to perform that action or incorrectly entered the command
+-4
+
+Part 2 Step 3b - the file some_text_file.txt is not in /home/analyst/    
+-4
+
+Part 2 Step 3b - the command you were supposed to enter was ls -l /home/analyst/
+-2.5 (partial-credit)
+
+Part 2 Step 3b - screenshot missing
+-6
+
+Part 2 Step 3b - your text file was created here not moved here (shown in blue, is much larger than it is supposed to be and analyst has too many rights)
+-2.5 (partial-credit)
+
+Part 2 Step 3b - your output shows that you did not remove _ftcc_folder_1
+-2 (partial-credit)
+
+Part 2 Step 3b - your screenshot does not include the first ls -l _ftcc_folder_2 command
+-1 (partial-credit)
+
+
+
+
+
+
+Part 3 Step 2a - Your answer was cut and pasted from the Instructor's Manual.  If this happens again, you will get a score of 1 for the entire lab.
+-15
+
+Part 3 Step 2a - A basic user can perform tasks / make changes on their files and view some items outside of what they are owner of
+-2.5
+
+Part 3 Step 2a - Also, standard user accounts have limitations of what they can do / see (i.e. least privilege) to protect the system
+-1 (partial-credit) (Use this if the student does a decent response but does not mention anything about user accounts or least privilege, etc.)
+
+Part 3 Step 2a - The reason it is necessary to run some commands as root is because standard user accounts have limitations of what they can do and see and what commands they can perform (i.e. least privilege)
+A basic user can perform tasks on their files and view some items outside of what they are owner of
+-6
+
+Part 3 Step 2a - Missing
+-6
+
+Part 3 Step 2a - Would have given you full credit if you would have state "must be performed by an admin account" instead of "should" implying that some commands can be performed by a basic user account but should not be.
+-3 (half-credit)
+
+
+
+
+
+Part 3 Step 2e 1 - Also, it lists the PID of the processes that are running
+-1 (partial-credit)
+
+Part 3 Step 2e 1 - Also, it lists the Program Names that are running
+-1 (partial-credit)
+
+Part 3 Step 2e 1 - the PID and Program Names of the processes are now visible
+-6
+
+Part 3 Step 2e 1 - the processes did not change, just now the PID and Program Names of the processes are visible
+-6
+
+Part 3 Step 2e 1 - the quesiton stated to be specific about the different elements shown between the two.  You should have noticed and stated that with sudo you can now see the PID/Program names running on each port. 
+-6
+
+Part 3 Step 2e 1 - neither command visible in your screenshot
+-6
+
+
+
+
+Part 3 Step 2e 2 - The PID of the process running on port 80 is 3511. The question stated, "Based on the netstat screenshot provided below this question" 
+You were required to use the screenshot below the question to pull this information from.
+-2 (partial-credit)
+
+
+
+
+Part 3 Step 2f - The screenshot instructions stated to "be sure to replace 395 below with the PID number of nginx from your screenshot" which is why you did not get the correct output in your screenshot.  
+-6
+
+
+
+
+
+
+Part 4b - the answer you provided goes with the second item - since the version of nginx would allow for a better search of vulnerabilities
+-6
+
+Part 4b -  the version of nginx would have been the correct response.
+The server version can be obtained without hacking into the server and by knowing the exact version of nginx running on a server it would allow a hacker to search for any known vulnerabilities for that version of nginx and potentially use those known vulnerabilities to exploit the server.
+-6
+
+Part 4b -  A more precise reason why the version of nginx is the answer is because this information can be obtained without hacking into the server and by knowing the exact version of nginx running on a web server is that it would allow a hacker to search for any known vulnerabilities for that version of nginx and potentially use those known vulnerabilities to exploit the server.
+-3 (half-credit)
+
+
+
+Part 4c - Port 53 is the well-known port used by DNS.  Therefore, you are trying to connect to a DNS server.
+-6
+
+Part 4c - Instructions stated to connect to port 53 for your screenshot
+-6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Screenshot Formatting - 
+Refer to the first pages of this document.  Need to take your PCs browser out of full screen to make your screenshots show up larger. Your browser needs to be the same size as the VM desktop (like you had to do in the Palo Alto course)
+-6 (2pt per screenshot for a max of 11 points) (first lab only took 1 point per screenshot)
+
+
+Part 1 Step 2d - The function of the ls command is to list directory contents
+You only place screenshots where you see the requirement to place a screenshot.
+See top of page two of this document
+-4
+
+
+
+
+Part 1 Step 3f - Missing answer to question
+The folder you are in is:
+_ftcc_folder_2
+-4
+
+Part 1 Step 3f - The answer to the question is:
+_ftcc_folder_2
+You have to enter answers where you see Insert you answer below
+See top of page two of this document
+-4
+
+Part 1 Step 3f  - The answer to the question is:
+_ftcc_folder_2
+(you have to give the actual names of files / directories / etc. not generalized names)
+-2 (partial-credit)
+
+Part 1 Step 3f  - The answer to the question is:
+_ftcc_folder_2
+(you have to give the actual names of files / directories / etc.) not type out the exact prompt you received from Linux in response to your actions.
+Otherwise, I cannot tell that you understand what you see on the screen or what actually happened. 
+analysts@secOps is the username and domain you are logged into, not part of the file path or the folder/directory name (since root can also go into that folder/directory)
+-2 (partial-credit)
+
+Part 1 Step 3f - The answer to the question is:
+_ftcc_folder_2
+analysts@secOps is the username and domain you are logged into, not part of the file path or the folder/directory name (since root can also go into that folder/directory)
+-1 (partial-credit)
+
+Part 1 Step 3f - The folder you are in is:
+_ftcc_folder_2
+-4
+
+Part 1 Step 3f - incorrect screenshot submitted
+-4
+
+
+
+Part 1 Step 3m - The answer to the first question is:   You moved up a folder into the parent of ftcc_folder_3.  (looking for moved up one folder or move into the parent folder)
+-2 (partial-credit)
+
+Part 1 Step 3m - The way to answer the first question more accurately is that you moved 'up' or 'back into the parent folder of ftcc_folder_3'
+-The answer to the second question is:
+_ftcc_folder_2 
+(you need to give accurate names of files / directories / etc. not generalized names)
+
+Part 1 Step 3m - The answer to the first question is:   You moved up a folder into the parent of _ftcc_folder_3. 
+The answer to the second question is;
+The name of the folder is _ftcc_folder_2
+-4
+
+
+Part 1 Step 4e - screenshot shows you missed successfully performing the clear command in 4a
+-1 (partial-credit)
+
+Part 1 Step 4e - screenshot shows you missed successfully performing the ls -l some_text_file.txt command in 4d
+-1 (partial-credit)
+
+
+
+Part 1 Step 6c - The dot (.) and dot-dot (..) represent the current directory in the filesystem and one level above the current directory, respectively. They are not files
+Missing
+.bashrc
+.bashrc_stock
+-2 (partial-credit)
+
+Part 1 Step 6c - The dot (.) and dot-dot (..) represent the current directory in the filesystem and one level above the current directory, respectively. They are not files
+Also, per your first answer, files are listed alphabetically....the correct five were
+.bash_history
+.bash_logout
+.bash_profile
+.bashrc
+.bashrc_stock
+Missing two of the above
+-2 (partial-credit)
+
+
+
+
+Part 2 Step 3b - your screenshot does not include the first ls -l _ftcc_folder_2 command
+-1 (partial-credit)
+
+Part 2 Step 3b - your output shows that you did not remove _ftcc_folder_1
+-2 (partial-credit)
+
+
+
+
+Part 3 Step 2a - The reason it is necessary to run some commands as root is because standard user accounts have limitations of what they can do / see (i.e. least privilege) to protect the system.
+A basic user can perform tasks on their files and view some items outside of what they are owner of but cannot do many things outside of that.
+-4
+
+Part 3 Step 2a - True, but why?
+The reason it is necessary to run some commands as root is because standard user accounts have limitations of what they can do / see (i.e. least privilege) to protect the system.
+-4
+
+Part 3 Step 2a - Also, standard user accounts have limitations of what they can do / see (i.e. least privilege) to protect the system
+-1 (partial-credit) (Use this if the student does a decent response but does not mention anything about user accounts or least privilege, etc.)
+
+
+Part 3 Step 2e 1 - Just stating "PID/Program name" leave me to complete your answer.   So what about them?  Who can see that information? Who cannot?  See what I mean.
+-2 (partial-credit)
+
+Part 3 Step 2e 1 - Need to be a little more specific, such as stating which command provided the extra information.
+-2 (partial-credit)
+
+Part 3 Step 2e 1 - the answer is that the PID and Program Names of the processes are only visible when you run the command via sudo (as root)
+-4
+
+Part 3 Step 2e 1 - Need to be a more specific, such as stating the PID and Program Names of the processes are visible when you run the command via sudo.
+-2 (partial-credit)
+
+
+Part 3 Step 2e 2 - The PID of the process running on port 80 is 3511. The question stated, "Based on the netstat screenshot provided below this question" 
+You were required to use the screenshot below the question to pull this information from.
+-2 (partial-credit)
+
+
+
+Part 3 Step 2f - Screenshot does not show your nginx process listed.  
+The lab stated 
+"Clear the terminal and be sure to replace 395 below with the PID number of nginx from your screenshot. (not the PID from the sample screenshot on the previous page, but the PID from your output)"
+-4
+
+Part 3 Step 2f - be sure to enter all commands in the lab.   Before running the sudo | ps command, you were supposed to run the clear command
+-1 (partial-credit)
+
+
+
+Part 4b -  the version of nginx is the correct response.
+The server version can be obtained without having to first hack into the server. By knowing the exact version of nginx running on a server it would allow a hacker to search for any known vulnerabilities for that version of nginx and potentially use those known vulnerabilities to exploit the server.
+-4
+
+
+
+Part 4c - Missing Answer to question
+Port 53 is the well-known port used by DNS.  Therefore, you are trying to connect to a DNS server.
+-4
+
+
+Part 4c - Step stated to "Use Telnet to connect to port 53"    The screenshot instructions stated "Insert screenshot below of your attempt to telnet to port 53"
+-4
+
+
+
+
+
+
+
+
+
+
+

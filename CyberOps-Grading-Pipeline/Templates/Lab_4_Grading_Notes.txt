@@ -1,0 +1,326 @@
+Each item is worth 3 each and the list below is not up to date
+
+Part 1 Step 3b Screenshot 3pts
+Part 1 Step 3b rows of table (x2) 3pts each (total of 6pts)
+Part 2 Step 1g Screenshot 3pts
+Part 2 Step 1g each question (x2) (total of 6pts)
+Part 2 Step 2b Screenshot 3pts
+Part 2 Step 2b each row of table (x3) 3pts (total of 9pts)
+Part 2 Step 2e Screenshot 3pts
+Part 2 Step 2e each question (x2) 3pts (total of 6pts)
+Part 4 Steps 2d each question (x5) 3pts (total of 20pts)
+Part 4 Steps 2d screenshot 3pts
+Part 4 Steps 2e each question (x3) 3pts   (total of 9pts)
+Part 4 Steps 2f each question (x2) 3pts    (total of 6pts)
+Part 4 Steps 2f screenshot 3pts
+Part 5a question 3pts 
+Part 5a Screenshot 3pts
+Part 5b screenshot 3pts
+Reflection question 3pts
+
+
+Your screenshot format does not follow the directions in the beginning of labs 2 and 3 documents. 
+You have to take your browser out of fullscreen so that your browser lines up with the NDG's Client desktop width
+There is a "Screenshots Demo" video available to show you how to setup your browser for the correct format under NetAcad and NDG  Resources in Modules 
+-11
+
+
+Part 1 Step 3b - IP and MAC addresses are not correct
+-6pts
+
+
+
+Part 2 Step 1g Screenshot - Wireshark must be fullscreen in the VM. 
+-1 (partial-credit)
+
+Part 2 Step 1g Screenshot - Did not "apply" the icmp filter in Wireshark, you entered it in the filter bar but did not hit enter or click the "Apply" button to use (apply) this filter.  The ARP packets are the first indication, while the second indication is the blue Apply arrow beside the filter bar.  When the filter entered in the filter field is applied, the arrow is grey.
+-3
+
+Part 2 Step 1g Screenshot - Filter used not visible since you opened the packet, instead of viewing from the Wireshark main view (Top, middle and bottom panes visible)
+-3
+
+
+Part 2 Step 1g
+Question a
+The Source MAC address in Wireshark does match H1’s interface MAC address from the table in step 3b
+-3
+Question b
+The Destination MAC address in Wireshark does match H2’s interface MAC address from the table in step 3b
+-3 
+
+
+Part 2 Step 1g - IP and MAC addresses are incorrect
+Needed to enter ip address into Node H2 to get that information
+They were
+H1 eth0 - 10.0.0.11  
+H2 eth0 - 10.0.0.12
+Each of the MAC addresses are listed next to Link/ether just above the IPv4 addresses
+-6 (3pts each)
+
+
+
+Part 2 Step 2b - No entries in the table
+-9 (3 rows worth 3pts each)
+
+Part 2 Step 2b - H1's MAC address incorrect
+-1 (partial-credit)
+
+Part 2 Step 2b - IP and MAC addresses are not correctly placed in chart
+-9
+
+Part 2 Step 2b - IP and MAC addresses missing from chart
+-9 (3pts each row)
+
+Part 2 Step 2b - MAC addresses are incorrect
+Each of the MAC addresses are listed next to Link/ether just above the IPv4 addresses
+-4.5pts
+
+Part 2 Step 2b - R1-eth2 IP address should not contain any colons and the MAC address should not contain any semicolons
+-1 (partial-credit)
+
+Part 2 Step 2b
+H4 eth0 - 172.16.0.40  
+R1 eth1 - 10.0.0.1
+R1 eth2 - 172.16.0.1
+Each of the MAC addresses are listed next to Link/ether just above the IPv4 addresses
+
+Part 2 Step 2b
+IP address for H4 is 172.16.0.40/12
+-1 (partial-credit)
+
+
+Part 2 Step 2b
+You have the IP and MAC addresses incorrect for the R1 interfaces. (you have eth1's info in eth2 and eth2's in eth1 in the table)
+-6 (each row worth 3)
+
+
+
+Part 2 Step 2e Screenshot - This is not the first icmp packet
+-3
+
+Part 2 Step 2e Screenshot - Did not apply the icmp filter in Wireshark
+-3 
+
+Part 2 Step 2e  Screenshot - Wireshark must be fullscreen in the VM. 
+-1 (partial-credit)
+
+
+Part 2 Step 2e Screenshot - the Ethernet II row is not expanded
+-1 (partial-credit)
+
+Part 2 Step 2e Screenshot - instructed not to open any packets into their own window. This can cover information being graded in the top pane.  
+Also, the Ethernet II row is not expanded
+-2 (partial-credit)
+
+
+Part 2 Step 2e
+a) Dest IP address is 172.16.0.40
+b) Dest MAC address is c6:6b:3d:c9:55:96
+-6 (3pts each)
+
+
+
+
+
+
+
+
+
+
+
+Part 4 Step 2d Screenshot - missing display filter
+-3
+
+Part 4 Step 2d Screenshot - in Part 4 Step 2a it explained how to arrange your top, middle and bottom panes so that you could see the middle section fully and capture/see what was asked.  Your screenshot is not showing the SYN bit because you did not shrink the top section to only view the 3-way handshake packets
+-3
+
+Part 4 Step 2d Screenshot - Not all of the TCP subfields are visible in your screenshot, because you have the top pane too large.  It was supposed to be compressed to the size of 3 packets making it so that all of your TCP subfeilds would be visible.  You cannot see any subfields above Sequence number 
+-3
+
+
+Part 4 Step 2d Screenshot - If you were not seeing any packets, because you did not have a file to look at, you did not follow the information in Part 3k that stated to view H1 and wait for it to finish capturing all 50 packets (reach Got 50)
+
+
+Part 4 Step 2d Screenshot - missing display filter
+-3
+
+Part 4 Step 2d Screenshot  - this is not a screenshot of the first SYN packet of the 3-way handshake
+-3
+
+Part 4 Step 2d Screenshot - did not expand tcp field in wireshark.  None of the fields under tcp are visible 
+-3
+
+Part 4 Step 2d Screenshot- Not showing the SYN bit in the Flags subfield
+-3
+
+
+
+Part 4 Step 2d
+Question#1
+The Source Port is 60020
+-3
+Question#2
+The Destination Port is 80
+-3 
+Question#3 
+The SYN flag is set
+-3
+Question#4
+The Header Length is 40
+-3
+Question#5
+The relative sequence number is set to 0
+-3
+
+
+
+
+
+Part 4 Step 2e - Missing
+-9
+
+
+Part 4 Step 2e 1
+Source Port is 80
+-1  (partial-credit) 
+or
+Destination Port is 60020
+-1  (partial-credit) 
+
+Part 4 Step 2e 1
+Source Port is 80
+Destination Port is 60020
+-3 
+
+Part 4 Step 2e 2
+The SYN and ACK flags are set
+-3
+or
+-1  (partial-credit) (You correctly answered one of them)
+
+
+Part 4 Step 2e 3
+The acknowledgment number is set to 1
+-1  (partial-credit) 
+or
+The relative sequence number is set to 0
+-1  (partial-credit) 
+or
+The relative sequence number is set to 0 and the acknowledgment number is set to 1
+-3
+
+
+
+Part 4 Step 2e Screenshot- - missing in view some of the TCP subfields due to your top pane not being compressed to only 3/4 packets
+-3
+Part 4 Step 2e Screenshot - missing in view the SYN, ACK sub-subfields due to your top pane not being compressed to only 3/4 packets
+-3
+Did not take points here, since you lost points below for the missing components
+Part 4 Step 2e Screenshot - this is not a screenshot of the first SYN,ACK packet of the 3-way handshake
+-3
+
+Part 4 Step 2e Screenshot - missing the TCP subfields
+-3
+ 
+Part 4 Step 2e Screenshot- missing in view the SYN, ACK sub-subfields due to your top pane not being compressed to only 3/4 packets
+-3
+
+Part 4 Step 2e Screenshot - this is not a screenshot of the first SYN,ACK packet of the 3-way handshake
+-3
+
+
+
+
+Part 4 Step 2f - Missing
+-9
+
+
+
+
+
+Part 4 Step 2f 1
+Only the ACK flag is set
+-3
+
+Part 4 Step 2f 1
+The ACK flag is set
+-3
+
+Part 4 Step 2f 2
+The relative sequence number is set to 1 and the acknowledgment number is set to 1
+-3
+
+
+
+Part 4 Step 2f Screenshot - missing in view some of the TCP subfields due to your top pane not being compressed to only 3/4 packets
+Screenshot - this is not a screenshot of the first ACK packet of the 3-way handshake
+-3
+
+Part 4 Step 2f Screenshot - Your screenshot is not showing the ACK bits in the Flags subfield as stated to perform in this step.  You needed to expand the Flags subfield
+-3
+
+
+
+
+Part 5a - terminal not fullscreen
+-1
+
+Part 5a  -n means Don't convert addresses (i.e., host addresses, port numbers, etc.) to names
+-3
+
+Part 5a - -n means Don't convert addresses (i.e., host addresses, port numbers, etc.) to names"
+-N is not the name a -n
+-3
+
+Part 5a - Did not complete the answer. You left off what it does not covert addresses to
+-1 (partial-credit)
+
+
+Part 5a Screenshot -  -n is not visible in your screenshot
+-3 
+
+
+
+
+Part 5b - terminal not fullscreen
+-1
+
+
+
+Part 5b Screenshot - missing
+-3
+
+Part 5b Screenshot - command not visible in screenshot
+-3
+
+Part 5b Screenshot - command was not accurately used.  You needed to view the 3 way handshake.  For your output tcp -c 3 would be been enough, since the 4th and 5th lines in your output are not part of the three-way handshake.
+-3
+
+Part 5b Screenshot - command was not accurate.  You left out "tcp" in the command
+should have ended with    tcp -c 3
+-3
+
+Part 5b Screenshot - command was not accurate.  You left off tcp -c 3 at the end of the command you entered.  Supposed to be
+tcpdump -r /home/analyst/capture.pcap tcp -c 3
+-3
+
+Part 5b Screenshot - the reason your command did not provide an output is because their is an issue with your capture file.  It appears you had not saved capture.pcap.  Your previous screenshots show you didn't stop the capture when you were supposed to.
+-3
+
+
+Part 5b Screenshot - your command did not provide the output for the 3-way handshake.
+As the step stated, you may have to increase the number of lines after the -c option in order to see the 3-way handshake that you captured
+-3
+
+Part 5b Screenshot - your command did not provide the complete output for the 3-way handshake.  You show S and S. only
+You needed to go to 8 to see the entire sequence
+-3
+
+Part 5b - Your command was only supposed to be -c 3, not 10, since your first 3 packets are showing the 3-way handshake
+By going past 3, in this scenario, it doesn't ensure that you know what you were looking for
+-3
+
+
+
+Reflection 1 - asked for ways (more that one) it could be used
+-1 (partial-credit)

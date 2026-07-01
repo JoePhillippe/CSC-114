@@ -1,0 +1,190 @@
+First 14 questions @6pts each
+Reflection questions are 10pts total
+Extra Credit is +25
+
+
+
+Part 1h - answer 6pts (pic required)
+    Screenshot missing 3-way handshake and GET request -6; 
+    missing 3-way handshake or the GET request -3pts
+Part 2c - pic 6pts
+Part 3c - pic 6pts
+Part 4c - pic 6pts
+Part 5c - pic 6pts
+Part 6a - pic 6pts
+Part 6c - pic 6pts
+Extra Credit - answer 25pts
+Part 7 Step 1b - pic 6pts
+Part 7 Step 1c - pic 6pts
+Part 7 Step 1d - answer 6pts 
+Part 7 Step 1e - pic 6pts
+Part 7 Step 2c - pic 6pts
+Part 8b - two part answer 6pts   (if they get one part correct, -2)
+Part 9 Step 2e - pic 6pts
+Reflection Part 1 2pts
+Reflection Part 2 8pts
+
+
+Your screenshot format does not follow the directions in the beginning of labs 2 and 3 documents.  You have to take your browser out of fullscreen so that it lines up with the NDG's Client desktop width
+-11
+
+
+
+Part 1h - 10.0.2.15 and 10.0.2.4
+-6
+Part 1h - 10.0.2.15 is correct; missing 10.0.2.4
+-3 (partial-credit)
+Part 1h - pic not showing the 3-way handshake
+-3 (partial-credit)
+Part 1h - pic not showing the first GET statement following the 3-way handshake
+-3 (partial-credit)
+Part 1h - pic not showing the 3-way handshake and the first GET statement, which were the first 8 packets in the list
+-6
+Part 1h - part 1c stated to make Wireshark fullscreen
+-1 (partial-credit)
+
+
+
+Part 2c - incorrect screenshot.  Should have been looking at tcp.stream eq 1 and looking at 1=1, by entering 1=1 in the find bar at the bottom of the Follow TCP window
+-6
+Part 2c - did not make the Follow HTTP Stream window Fullscreen
+-1 (partial-credit)
+
+
+
+Part 3c - the fourth user account is Pablo Picasso (picking Bob Smith means you did not account for the first account listed - admin)
+-6
+Part 3c - the fourth user account is Pablo Picasso and you did not scroll to the correct part of the HTTP stream
+-6
+Part 3c - Pablo Picasso is the 4th user.  
+Easiest way to find this would be to count each Surname entry starting with the admin at number 1.
+-6
+Part 3c - Fourth user not highlighted to show you knew the answer.
+-6
+Part 3c - Required to highlight the First Name also
+-1 (partial-credit)
+Part 3c - did not make the Follow HTTP Stream window Fullscreen
+-1 (partial-credit)
+
+
+
+Part 4c - did not highlight Ubuntu in your screenshot
+-6
+Part 4c - Needed to highlight just Ubuntu
+-6
+Part 4c - Incorrect screenshot
+-6
+Part 4c - did not make the Follow HTTP Stream window Fullscreen
+-1 (partial-credit)
+
+
+
+Part 5c - did not make the Follow HTTP Stream window Fullscreen
+-1 (partial-credit)
+Part 5c - did not find/highlight starting at 1=1 over to users in your screenshot.  You just highlighted users
+-2 (partial-credit)
+Part 5c- did not find/highlight starting at 1=1 over to users in your screenshot.  You just highlighted users
+-2 (partial-credit)
+Part 5c - did not find/highlight the correct entry
+See annotation on screenshot
+-6
+
+
+
+Part 6a - Needed to highlight only the line that begins with Server
+-6
+Part 6a - Needed to highlight Server, to answer the part of the question that asked "the type of device"
+-2 (partial-credit)
+Part 6a - The device is a Server (that is running Apache software)
+-6
+
+
+
+Part 6c - incorrect screenshot - you were supposed to provide the screenshot of CrackStation showing the results of abc123 
+-6
+Part 6c - Your screenshot was pasted to the document, but you did not ensure the "Results" were visible
+-6
+Part 6c - gordonb's hash was 
+e99a18c428cb38d5f260853678922e03 
+which results in a password of 
+abc123
+-6
+
+
+Extra Credit - There were a total of 7 tcp streams (the first stream is zero).  
+The last stream you followed was the last one and on the top of the module window is shows the tcp stream number tcp.stream eq 6
+Also, your favorite search engine would have stated that you could find that information by selecting Conversations from the Statistics menu, and you would have seen there were 7 conversations (tcp streams).
+No extra points granted
+
+Extra Credit - There were a total of 7 tcp streams (it starts with zero as a stream), but I gave you 15 points if you said 6.   
+Also, your favorite search engine would have stated that you could find that information by selecting Conversations from the Statistics menu, and you would have seen there were 7 conversations (tcp streams).
++15
+
+Extra Credit
++25
+
+
+Part 7 Step 1b - tac is the command   (which is cat in reverse)
+-6
+Part 7 Step 1b - tac is the command   which is cat in reverse
+-3 (half-credit)(you provided a screenshot, but didn't enter it above in the question)
+Part 7 Step 1b - Failed to scroll back up a show the command in your screenshot
+-6
+Part 7 Step 1b - you entered the command incorrectly, you do not use both tac and cat, they are two seperate commands that display the information in completely different ways.
+-6
+Part 7 Step 1b - you did not use the command you found.  You provided a screenshot of cat in use
+-6 
+Part 7 Step 1b - terminal not fullscreen
+-1 (partial-credit)
+
+
+Part 7 Step 1c - Failed to scroll back up a show the command in your screenshot
+-6
+
+
+
+Part 7 Step 1d - No you cannot scroll up to see the command of the output of the less command, if you performed the steps in the lab that stated to "Press the space bar to advance to the next page. Press enter to advance a single line of text."
+-6
+Part 7 Step 1d - I can't answer it for you from a screenshot that you posted instead of an "answer"
+-6
+
+
+
+Part 7 Step 1e - screenshot shows you did not enter the tails command correctly or you would have not had a full terminal (also, command not visible in your )
+-6
+Part 7 Step 2c - you did not ensure the output in the console window in the upper left showed the output (what you echoed in the bottom right)
+-3 (partial credit)
+Part 7 Step 2c - attempted to run the command from the wrong directory (you are running it from the Desktop directory)
+-6
+Part 7 Step 2c - The command you entered in the bottom right could have created the echo you're showing.  You are in the home directory in the bottom right and the Desktop directory in the upper left
+-6
+Part 7 Step 2c - The command you entered in the bottom right had a few mispellings 
+-6
+
+
+
+Part 8b - NTP uses the UDP transport protocol
+-3 (one part is correct)(partial credit)
+Part 8b - NTP uses the UDP transport protocol
+-6
+
+
+Part 9 Step 2e - command you were required to use was
+sudo journalctl -f
+-6
+Part 9 Step 2e - terminal not fullscreen
+-1 (partial-credit)
+
+
+
+Reflection Screenshot 1 - AI query not in screenshot
+-2
+Reflection Screenshot 1 - all five items not in screenshot
+-2
+
+Reflection Screenshot 2 - Appears that you did not use the complete query, since you do not have at least 10 features showing in your table
+-4 (partial-credit)
+
+Reflection Screenshot 2 - missing
+-8
+

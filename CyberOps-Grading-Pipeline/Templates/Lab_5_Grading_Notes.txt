@@ -1,0 +1,284 @@
+36 questions @2.5pts each
+
+
+Part 1 Step 2b screenshot 2.5pts
+Part 1 Step 5a pic 2.5pts
+Part 1 Step 5a each row (x8) 2.5pts (-20)
+Part 1 Step 5b pic 2.5pts
+Part 1 Step 5b each row (x8) 2.5pts (-20)
+Part 1 Step 5c pic 2.5pts
+Part 1 Step 5c each row (x8) 2.5pts (-20)
+Part 1 Step 5d pic 2.5pts
+Part 1 Step 5e pic 2.5pts
+Part 2 Step 2b pic 2.5pts
+Part 3 Step 1f pic 2.5pts
+Part 3 Step 2d questions (x3) 2.5pts each (pic required or its -7.5)
+Part 4 Step 1f question 2.5pts (pic required)
+
+
+Your screenshot format does not follow the directions in the beginning of this document.  You have to take your browser out of fullscreen and ensure to line up your browser with the Security Onion desktop width, at least
+-11
+
+
+Part 1 Step 2b - Part 1 Step 1e stated to make the terminal fullscreen
+-1 (partial-credit)
+
+Part 1 Step 2b - You did not complete Part 1 Step 2b, before taking screenshot. 221 Goodbye not showing
+-1 (partial-credit)
+
+Part 1 Step 2b - Performed on the wrong VM.
+-1 (partial-credit)
+
+Part 2 Step 2b - incorrect screenshot
+-2.5
+
+
+Part 1 Step 5a,b,c Screenshots - Wireshark not fullscreen
+-3 (partial-credit)
+
+
+Part 1 Step 5a,b,c Screenshots - Performed on the wrong VM.
+-7.5
+
+Part 1 Step 5a,b,c Screenshots - Performed on the wrong interface - supposed to be on eth1 
+-7.5
+
+Part 1 Step 5a,b,c Screenshots - Traffic is supposed to be going from 192.168.0.1 (client) to 192.168.0.14 (ftp server)
+-7.5
+
+Part 1 Step 5a,b,c Screenshots - you always leave the packets in order (by packet number, far left column) that they come in.  This allows you to see the correct flow of information. 
+
+Part 1 Step 5a,b,c Screenshots - did not adjust the top pane so that it only contained the packets that were part of the 3-way handshake per Part 1 Step 5a 1
+-3 (partial-credit)
+
+Part 1 Step 5a,b,c Screenshots - required filter was tcp and ip.addr == 192.168.0.14
+-7.5
+
+Part 1 Step 5a,b,c Screenshots - Did not select the first three packets as required.  Those would have been your 3-way handshake for your FTP transfer.  
+--7.5
+
+
+Part 1 Step 5a Screenshot -
+Did not ensure that the packet in the packet list pane was visible in your screenshot.  
+Did not ensure that the following field in the middle pane of your screenshot, was visible 
+-2.5
+
+
+Part 1 Step 5a,b,&c charts- Answers came from sample screenshot
+
+Part 1 Step 5a - 
+Source port - 44846
+-2.5
+
+Part 1 Step 5b - 
+Destination port - 44846
+-2.5
+
+Part 1 Step 5c - 
+Source port - 44846
+-2.5
+
+
+
+Part 1 Step 5a - 
+Source IP address - 192.168.0.1
+Destination IP address - 192.168.0.14
+Source port - 44846
+Destination port - 21
+Sequence number - 0
+Acknowledgement number - 0
+Header length - 40 bytes
+Window size - 65535
+-20
+
+
+
+Per Part 1 Step 5a 2) 1) Do not expand the Syn:Set sub-field.  
+
+Part 1 Step 5a Screenshot - Did not expand the Flags sub-field to show the SYN flag set.
+-1
+
+
+Part 1 Step 5b screenshot - Did not select the SYN ACK packet that is part of the 3-way handshake. 
+-2.5
+
+Part 1 Step 5b -
+Did not ensure that the packet in the packet list pane was visible in your screenshot.  
+Did not ensure that the following field in the middle pane of your screenshot, was visible 
+
+Part 1 Step 5b - Did not select a packet that is part of the 3-way handshake. 
+-2.5
+
+Part 1 Step 5b - 
+Source IP address - 192.168.0.14  
+Destination IP address - 192.168.0.1
+Source port - 21
+Destination port - 44846
+Sequence number - 0
+Acknowledgement number - 1
+Header length - 40 bytes
+Window Size - 65160
+-20
+
+Please do not expand rows that are not required (in your case you expanded the Syn:Set sub-sub-field).  This caused your Window Size row to not be shown in your screenshot
+
+
+
+Part 1 Step 5b - Did not enter any answers in the table.  
+-20
+
+
+Part 1 Step 5c Screenshot - This is not the ACK that is part of the 3-way handshake.  Packet 5 is the ACK that is part of the 3-way handshake
+-2.5
+
+Part 1 Step 5c - did not highlight the ACK Flag subfield
+-1 
+
+Part 1 Step 5c - 
+Source IP address - 192.168.0.1  
+Destination IP address - 192.168.0.14
+Source port - 44846
+Destination port - 21
+Sequence number - 1
+Acknowledgement number - 1
+Header length - 32 bytes
+Window Size - 128
+-20
+
+Part 1 Step 5c - Did not select the ACK packet from the 3-way handshake. Therefore you are not providing the correct information for the table
+-16
+
+
+
+
+
+Part 1 Step 5d - the filter you were supposed to use was as shown below.  It was not one or the other, but the entire string as shown.  
+ftp or ftp-data
+-2.5
+
+Part 1 Step 5d - Screenshot instructions stated to expand the top pane to show from the Welcome comment to the Goodbye comment in the Info column
+-1 (partial-credit)
+
+Part 1 Step 5d - Missing
+-2.5
+
+Part 1 Step 5d - Did not apply the filter, as noted by the blue arrow and the ARP packets showing.  
+Welcome packet not showing.
+-2 (partial-credit)
+
+
+
+
+
+Part 1 Step 5e - this is not the first FIN ACK packet sent by the server (192.168.0.14) following the Response 221 Goodbye packet. 
+-2.5
+
+Part 1 Step 5e - You are looking for the packet from 192.168.0.14 (server) -> 192.168.0.1 (client)
+-2.5
+
+Part 1 Step 5e - Screenshot instructions stated "In your screenshot, the selected packet at the top must be visible"
+Not able to tell if you selected the first FIN ACK packet sent by the server that follows the Response:221 Goodbye Packet
+-2.5
+
+Part 1 Step 5e - Missing
+-2.5
+
+Part 1 Step 5e - Screenshot instructions stated to:
+Expand the Flags subfield in the Packet Details pane (middle) to show the bits that are set.
+Shrink the Packet List (top) pane so that the middle pane has more room to show all the fields and subfields (like seen in the sample screenshot in Part 1 Step 4c)
+-1.5 (partial-credit)
+
+Part 1 Step 5e - Instructions stated to Adjust/shrink to Packet List (top) pane so that the middle pane had more area to show the Fin:set flag.
+-2.5
+
+Part 1 Step 5e - Instructions stated to have the details pane expanded to show the bits that were set.  Last bit set, Fin bit is not visible in your screenshot
+-1
+
+Part 1 Step 5e - incorrect filter applied. Would have accepted 
+tcp    
+or    
+tcp and ip.addr == 192.168.0.14
+A red field in the display filter bar indicates you do not have a valid filter applied
+-2.5
+
+Part 1 Step 5e Screenshot - Performed on the wrong VM.
+-2.5
+
+Part 1 Step 5e Screenshot - Performed on the wrong interface - supposed to be on eth1 
+-2.5
+
+Part 1 Step 5e Screenshot - Traffic is supposed to be going from 192.168.0.1 (client) to 192.168.0.14 (ftp server)
+-2.5
+
+
+
+
+Part 2 Step 2b - The instructions stated to perform this action on H1
+-1 (partial-credit)
+
+Part 2 Step 2b - did not enter "My SEC-160 tftp data file" from Step 2a correctly
+-1 (partial-credit)
+
+
+
+
+Part 3 Step 1f - the command you were required to use for this screenshot was:
+tcpdump -c 5 -vv -r ~/lab.support.files/pcaps/httpdump.pcap port 443
+-2.5
+
+Part 3 Step 1f - your command is missing the ~ symbol at the start of the file location ( ~/lab...)
+-2.5
+
+Part 3 Step 1f - did clear the terminal as stated in Step Part 3 Step 1e
+-1
+
+
+
+
+Part 3 Step 2d questions 1,2 & 3 - the answers came from viewing the POST packet.  You are viewing the GET statement and that does not have the information to answer the questions correctly.
+-7.5
+
+Part 3 Step 2d questions 1,2 & 3 - the answers came from viewing the POST packet.  
+No screenshot to determine what packet you were using for your answers
+-7.5
+
+
+Part 3 Step 2d questions 1,2 & 3 - the answers you were supposed to provide had to come from viewing the bottom (bytes) pane. 
+As stated in the screenshot instructions "ensure the bottom pane is also visible in your screenshot, otherwise the screenshot and answers are market incorrect.
+The purpose for this part of the lab was to demonstrate what information can see in the bytes (bottom) pane.
+-7.5
+
+Part 3 Step 2d Screenshot - did not expand HTML Form URL Encoded field
+-1
+
+Part 3 Step 2d questions 1,2 & 3 - the answers you were supposed to provide would have come from the bottom (bytes) pane.
+Since you did not display this in your screenshot, you did not accurately answer the 3 questions
+Question 1 - the username (UID) and password (passw) were clearly visible
+Question 2 - Correct response would have been yes. 
+Question 3 - Based on your lab you should have found that http is not a secure protocol for anything that should remain hidden or a secret from others
+-7.5
+
+
+
+Part 4 Step 1f - the answer comes from viewing the TLS field of the one of the Application Data packets.  You are not viewing that packet in your screenshot.
+-2.5
+
+Part 4 Step 1f - Wireshark not fullscreen
+-1 (partial-credit)
+
+Part 4 Step 1f - did not select/highlight the correct TLS field.  The Encrypted Application Data field would have shown the information necessary to answer the question.
+-2.5
+
+Part 4 Step 1f - The data is not in plaintext (human readable) format; it is encrypted
+-2.5
+
+Part 4 Step 1f - did not apply the correct filter 
+tcp.port == 443 
+and did not select the correct packet (Application Data) to see the information for the question
+-2.5
+
+Part 4 Step 1f - did not expand the required Transport Layer Security Field to display the encrypted data 
+-2.5
+
+Part 4 Step 1f - you collapsed the bytes (bottom) pane, therefore not able to validate the answer provided with your screenshot 
+-2.5

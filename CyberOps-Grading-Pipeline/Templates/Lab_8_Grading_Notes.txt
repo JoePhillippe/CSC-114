@@ -1,0 +1,159 @@
+14 questions @ 9pts each
+
+Part 1d - pic 9pts
+Part 1g - answer 9pts (pic required)
+Part 1j - pic 9pts
+Part 2c - pic 9pts
+Part 3 Step 1e - pic 9pts
+Part 3 Step 2f - pic 9pts
+Part 3 Step 2g - pic 9pts
+Part 4 Step 2b - pic 9pts 
+Part 4 Step 2d - pic 9pts 
+Reflection Screenshot 1 - 2pts
+Reflection Part 2 - 8pts
+
+
+Your screenshot format does not follow the directions in the beginning of labs 2 and 3 documents.  You have to take your browser out of fullscreen so that it lines up with the NDG's Client desktop width
+-11
+
+
+Part 1d - Terminal not fullscreen
+-1 (partial-credit)
+
+Part 1g - the reason you cannot read the file is because it is encrypted
+-9
+Part 1g - did not complete / do Part 1f
+-1 (partial-credit)
+This is the clear command
+
+
+
+
+Part 1j - did not enter the correct command prior to the cat command
+Your command is missing the -a after openssl aes-256-cbc -a
+Therefore you did not decrypt the message
+-9
+Part 1j - did not enter the correct command prior to the cat command
+Your command is 
+openssl aes-256-cbc -a -d -in message.enc -out decrypted_letter.txt
+-9
+Part 1j - did not complete / do Part 1h
+-1 (partial-credit)
+
+
+
+
+Part 2c - Screenshot is not showing the decrypted letter, to support your answer
+-9
+Part 2c - Did not provide an answer to the question that preceded the screenshot
+-9
+Part 2c - in future labs, if you are not getting the results that the lab is stating you are expecting to see, you need to redo the section from the beginning of where things started going wrong, in this case, with the first encryption of the letter. 
+-2.5 (partial-credit)
+Part 2c - did not complete / do Part 1k
+-1 (partial-credit)
+
+
+
+
+
+Part 3 Step 1e - you echoed all of your sample text files into sample-3, as shown from your output.  0 bytes are in 1 and 2 and 147 in sample-3
+-9
+Part 3 Step 1e - did not use the correct option with the ls. 
+-1 (partial-credit)
+Part 3 Step 1e - did not use the correct option with the ls command and incorrectly named the folder. 
+In Linux, names are case sensitive therefore Zip-Files and zip-files are not the same. 
+-9
+Part 3 Step 1e - In Linux, names are case sensitive therefore Zip-Files and zip-files are not the same. 
+-2.5 (partial-credit)
+Part 3 Step 1e - you created the files, but did not create the correct parent folder, Zip-Files folder as required.  In Linux, directory, files and folders are case sensitive, therefore any name other than Zip-Files is not the same/correct location. 
+-2.5 (partial-credit)
+Part 3 Step 1e - Incorrect screenshot
+-9
+Part 3 Step 1e - you created the files, but did not put them into the correct parent folder, Zip-Files, as required.   
+-9
+Part 3 Step 1e - did not complete / do the first part of Part 3 Step 1a
+-1 (partial-credit)
+
+
+
+
+
+
+Part 3 Step 2f - you created the files, but did not created them in the Zip-Files folder
+-2.5 (partial-credit)
+Part 3 Step 2f - missing file-2.zip
+-1 (partial-credit)
+Part 3 Step 2f - Incorrect screenshot
+-9
+Part 3 Step 2f - did not complete / do Part 3 Step 2e
+-1 (partial-credit)
+
+
+Part 3 Step 2g - You needed to get to the point you could enter the incorrect password.  If you make a mistake (as you did with the first no response) and it caused the lab to not respond correctly, you needed to redo the command and start the process over from the beginning.
+-9
+Part 3 Step 2g - In this step it stated to purposely enter the incorrect password to see what the output of doing so would look like.  You were not supposed to enter it correctly at any time during this step
+-9
+Part 3 Step 2g - In this step it stated to purposely enter the incorrect password to see what the output of doing so would look like.  You were not supposed to enter it correctly at any time during this step
+If you noticed from the example screenshot provided, you were to continue to enter the password until you were done attempting to open all three sample text files.
+You only attempted one of three files
+-3.5 (partial-credit)
+Part 3 Step 2g - In this step it stated to purposely enter the incorrect password to see what the output of doing so would look like.  You were not supposed to enter it correctly at any time during this step
+If you noticed from the example screenshot provided, you were to continue to enter the password until you were done attempting to open all three sample text files.
+You only attempted one of three files
+-3.5 (partial-credit)
+
+
+
+Part 4 Step 1 - -B executes a small benchmark
+-9
+
+
+Part 4 Step 2b - did not complete / do Part 4 Step 2a
+-1 (partial-credit)
+Part 4 Step 2b - incorrect command used.  Supposed to be
+fcrackzip -vul 1-4 file-1.zip 
+-9
+Part 4 Step 2b - incorrect password used.  Ensure to use the correct password in these labs.  b is found faster than B because it starts with lower case then moves to uppercase, changing the time it takes to find a particular password.
+Did not take points this time
+
+
+Part 4 Step 2d - for the command to work, your password had to be between 1 and 4 characters.  Since it reached the end of file (EOF) you used a password that was not between 1 and 4 characters. 
+-9
+
+
+Part 4 Step 2d - Missing
+For the correct command to crack your password you needed to change 1-4 to 1-5 since there are now 5 characters to crack instead of 4
+-9
+Part 4 Step 2d - incorrect command used.  Supposed to be
+fcrackzip -vul 1-5 file-1.zip 
+-9
+Part 4 Step 2d - for the command to work, your password had to be between 1 and 5 characters.  Since it reached the end of file without finding your password you used a password that was not between 1 and 5 characters. 
+-9
+Part 4 Step 2d - to showcase how the size of the password affects this command, you had to use the correct length password, which was 5 characters in length.
+-9
+
+
+Reflection Screenshot 1
+- Prompt is not visible in your screenshot
+-2
+
+Reflection Screenshot 1
+- Complete list is not in screenshot.  Needed to reword your prompt to ensure it only provided you a simple list or list without a summary so that all five would be in your screenshot
+-2
+
+
+Reflection Part 2
+- Instructions said that this part is not to be a screenshot
+-8
+
+Reflection Part 2
+- Did not ensure that you got a chart in the output.  Needed to reword the prompt to ensure that you got a chart out of the results
+-4 (partial-credit) 
+
+Reflection Part 2
+- Your output is a detailed output of only a single platform.  You did not compare two of them.
+-8
+
+Reflection Part 2
+- Your chart has only 6 categories.  Needed to ensure your prompt mandated that there was at least 10.
+-4 (partial-credit) 

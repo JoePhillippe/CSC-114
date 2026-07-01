@@ -1,0 +1,67 @@
+Failed to do Part 1 Step 1b and in the Display Name field enter your student name
+-7.5 
+
+
+Part 2 Step 2d - no EIGRP messages are visible in your screenshot
+-7.5
+Part 2 Step 2d - This is not a screenshot of the Syslog Server Window showing some of the EIGRP messages received by the Syslog Server
+-7.5
+
+
+Part 2k - The column is Flag. Term is Start
+-7.5
+Part 2k - The column is name is Flag. Term is Start (the question is looking for specifically which term following Flag indicates a successful login - which is Start)
+-3 (partial-credit)
+Part 2k - The column is name is Flag. Term is Start. The question is looking for both the column name and and the term that indicates a successful login
+-3 (partial-credit)
+Part 2k - The column is name is Flag. Term is Start (the question is looking for specifically which term following Flag indicates a successful login - which is Start)
+Screenshot indicates you did not complete Part 2i and login and logout of R2 and second time as required in the lab
+-7.5 (partial-credit)
+Part 2k Screenshot - does not support that you completed Part 2i and login and logout of R2 and second time as required in the lab
+There should be four entries
+-2 (partial-credit)
+Part 2k Screenshot - does not support that you completed first step in Part 2k, make the window wide enough so each entry is a single line.  Yours are wrapped.
+-2 (partial-credit)
+
+
+
+
+Part 2n - it takes 3 unsuccessful attempts to generate a log in the record
+-7.5
+
+Part 2n Screenshot - screenshot does not support that you performed step Part 2m (name USERNAME and password PASSWORD not showing in logs)
+-7.5
+
+Part 2n Screenshot - Part 2m stated to enter for the name USERNAME and for the password PASSWORD
+-3 (partial-credit)
+
+
+Part 2r - the answer to the question was Yes
+-7.5
+Part 2r - Student Lab template stated "Before you take your screenshot, wait long enough for AAA to record it"
+-2 (partial-credit)
+Part 2r - This is supposed to be a screenshot of the AAA Accounting Records showing that the login entry was now captured by AAA
+-7.5
+
+
+
+Part 2w - Missing answer. You would not have been able to log in.
+-7.5
+Part 2w - No login entry showing 2r was completed (there is not another successful login entry showing in AAA after the one that you entered incorrectly on purpose)
+-3 (partial-credit)
+Part 2w - Did not provide a screenshot of the AAA Records TACACS+ Tab showing a username analyst password cyberops log entry
+-7.5
+Part 2w - This is supposed to be a screenshot of the AAA Accounting Records showing that the login entry was now captured by AAA
+-7.5
+Part 2w - You would not have been able to log in and you did not provide a screenshot of the AAA Records TACACS+ Tab to support the answer given
+-7.5
+Part 2w - You would not have been able to log in and your screenshot of the AAA Records TACACS+ Tab does not support the answer given (there is not another successful login entry showing after the one that you entered incorrectly on purpose)
+-7.5
+Part 2w - according to this screenshot, you did not prove that you could not log in, since you did not provide the correct credentials to attempt to log in.  
+
+
+Part 2x - Your password column is the last one (NAS Port) as noted by the visible incorrectly entered PASSWORD that you entered in step 2m and is visible in screenshot 2w
+-7.5
+
+Part 2x - Your password column is the last one (NAS Port) which would have been visible had you incorrectly entered PASSWORD in step 2m since it would have been visible in screenshot 2w
+-7.5
