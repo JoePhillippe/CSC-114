@@ -12,11 +12,10 @@
 Two deliberate changes were made during this project:
 
 **Change 1 — Epoch list expanded.**
-The initial epoch list was `[5, 10, 20, 40]`. At those settings the model showed no overfitting — accuracy and val loss kept improving at every setting. The epoch list was changed to `[40, 80, 150, 300]` to push the model further and expose the overfitting signal.
+The initial epoch list was `[5, 10, 20, 40]`. At those settings the model showed no overfitting — accuracy and val loss kept improving at every setting. The epoch list was changed to `[40, 80, 150, 300]` to push the model further and expose the overfitting signal. 
 
 **Change 2 — Dropout layers removed.**
-The original model included two Dropout layers (0.3 and 0.2). With Dropout in place the model was too well-regularized — val loss kept dropping even at 300 epochs and no overfitting curve appeared. Removing Dropout allowed the model to begin memorizing training data at higher epoch counts, which made the overfitting visible in the results.
-
+The original model included two Dropout layers (0.3 and 0.2). With Dropout in place the model was too well-regularized — val loss kept dropping even at 300 epochs and no overfitting curve appeared. Removing Dropout allowed the model to begin memorizing training data at higher epoch counts, which made the overfitting visible in the results. 
 **Result of those changes:**
 
 | Epochs | Train Acc | Val Acc | Val Loss | Notes |
@@ -32,7 +31,8 @@ Val loss reached its minimum at epoch 80 (0.0063), then climbed at epoch 150 (0.
 
 **🖊 My observations and comments:**
 
-*(Add your own observations here)*
+I tried several levels to get to the maximum of 300 Epoch but no overfitting resulted. I instructed Claude AI the I need to show where overfitting would happen. I was informed that the Droput layers were including in Python code to prevent overfitting.  This resulted in change two that removed the dropout layers.  This shows that dropout layers can be included in model to prevent overfitting.
+
 
 ---
 ---
@@ -56,7 +56,7 @@ The epoch tuning chart (epoch_tuning.png) shows this visually: the red val loss 
 
 **🖊 My observations and comments:**
 
-*(Add your own observations here — describe what you saw in the chart and numbers in your own words)*
+I would have trained the model on many more epoch levels on a real project to find the best fit is between 80 and 150 epochs.
 
 ---
 ---
@@ -81,7 +81,7 @@ Areas that would be harder to rebuild without help:
 
 **🖊 My observations and comments:**
 
-*(Add your own honest assessment here — what do you genuinely understand, and what one part would you struggle to rebuild alone?)*
+I understand the steps that are being done in the Python code, the statistical methods that are being used and how the model in being trained. I can follow the functions in the code but it would take me a long time to research and build this code without relying on Claude.
 
 ---
 
