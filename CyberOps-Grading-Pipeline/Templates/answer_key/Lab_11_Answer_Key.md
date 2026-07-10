@@ -88,6 +88,15 @@ drwxr-xr-x  2 analyst analyst   4096 Mar 21  2018 second_drive
 **ANSWER TEXT** _(transcribed from screenshot - verify accuracy)_:
 ```
 HTTP - Logs
+@timestamp    June 12th 2020, 21:30:09.445
+t @version      1
+t _id           ZzjrzXIBB6Cd-_0SD_iW
+t _index        seconion:logstash-import-2020.06.12
+t _score        -
+t _type         doc
+t destination_geo.city_name     Monterey
+t destination_geo.country_name  United States
+t destination_geo.ip            209.165.200.235
 t  source_geo.region_name     California
 t  source_geo.timezone         America/Los_Angeles
    source_ip                   209.165.200.227
