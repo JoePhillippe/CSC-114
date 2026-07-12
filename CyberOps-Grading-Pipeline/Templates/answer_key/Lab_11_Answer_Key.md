@@ -62,7 +62,7 @@ Help          Filter Out This Stream          Print          Save as...         
 
 ## Answer Slot
 
-**ANSWER TEXT:** _(empty in template - instructor must fill in)_
+**ANSWER TEXT:** It indicates that it is an MS-DOS executable file
 
 ---
 
@@ -125,7 +125,7 @@ June 12th 2020, 21:23:27.954   409.165.200.227   209.165.200.235   80   FCbbST2f
 
 ## Answer Slot
 
-**ANSWER TEXT:**
+**ANSWER TEXT:** June 12th 2020, 21:30:09.445
 ```
 2. What is the other timestamp of this event entry?  (You must list it exactly as it is shown… take the time out to the last digit given))
 ```
@@ -134,7 +134,7 @@ June 12th 2020, 21:23:27.954   409.165.200.227   209.165.200.235   80   FCbbST2f
 
 ## Answer Slot
 
-**ANSWER TEXT:** _(empty in template - instructor must fill in)_
+**ANSWER TEXT:** 2020-06-19T18:50:33.318Z
 
 ---
 
@@ -198,7 +198,9 @@ June 12th 2020, 21:23:27.954   409.165.200.227   209.165.200.235   80   FCbbST2f
 
 ## Step 3 | Q2
 
-**ANSWER TEXT:** _(empty in template - instructor must fill in)_
+**ANSWER TEXT:** Username was 1234567812345678
+                 Password is 627
+
 
 ---
 
@@ -246,41 +248,25 @@ DST: 2
 
 ---
 
-## Step 2 | Q1
-
-**ANSWER TEXT:**
-```
-2. What is the DNS-Server IP address?
-```
-
----
-
-## Q2
-
-**ANSWER TEXT:** _(empty in template - instructor must fill in)_
-
----
-
 ## Part 4 | Step 2 | e
 
-**ANSWER TEXT** _(transcribed from screenshot - verify accuracy)_:
+**ANSWER TEXT** 1. DNS-Client IP address 192.168.0.11
+               2.  DNS-Server IP address 209.265.200.235
 ```
-DNS - Client
 
-Client ÷          Count ÷
-192.168.0.11      4
 
-DNS - Server
+DNS - Client   Count
+192.168.0.11    4
 
-Server ÷          Count ÷
-209.165.200.235   4
+DNS - Server    Count 
+209.165.200.235  4
 ```
 
 ---
 
 ## Step 3
 
-**ANSWER TEXT:** _(empty in template - instructor must fill in)_
+**ANSWER TEXT:** No
 
 ---
 
@@ -304,5 +290,17 @@ analyst@SecOnion:~$
 ```
 On the next page, using your favorite AI, look up Notable Cybersecurity Campaigns that used DNS exfiltration to steal data.
 ```
+##Any of the four listed below
+Implementing network inspection via security products where DNS traffic can be analyzed
+Limiting clients DNS traffic and creating rules triggered when a specific threshold is reached
+Setting-up dedicated DNS servers
+Creating network segmentation
+Using firewalls on the necessary ports
+Blocking unauthorized channels
+Implementing data loss prevention policies
+Raising awareness for employees about these types of scenarios
+
 
 ---
+##EXTRA CREDIT
+## give 15 points to all students
