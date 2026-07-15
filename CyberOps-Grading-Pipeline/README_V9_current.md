@@ -49,7 +49,7 @@ Canvas (manual download)
         |
   grading_agentV8.py        <- renders PDFs, submits batch to Claude API
         |
-  Anthropic Batch API       <- processes overnight, 50% cost savings
+  Anthropic Batch API       <- processes overnight, 90% cost savings
         |
   batch_retrieveV2.py       <- runs continuously, retrieves results every 24 hours
         |
